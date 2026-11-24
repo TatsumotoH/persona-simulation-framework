@@ -7,8 +7,8 @@ How to run and score the three diagnostic tests (Stage 1). The criteria below ar
 | Test | Question | Script | Calls per model |
 |---|---|---|---|
 | 1. Persona Expression | Does the persona shape judgment itself? | `persona_screening.py` | 60 (30 + 30) |
-| 3. Persona Belief-Update | Does the persona revise its view in proportion to argument quality? | `persona_screening.py` (same run) | 144 |
 | 2. Persona Nomological | Do trait differences reach behavior in the predicted direction? | `run_law_generic.py` | 324 |
+| 3. Persona Belief-Update | Does the persona revise its view in proportion to argument quality? | `persona_screening.py` (same run as Test 1) | 144 |
 
 Tests 1 and 3 run in a single `persona_screening.py` call (204 calls) for implementation convenience; they are separate tests. A model must pass all three to be used in group simulation. Failing Test 3 alone rules out experiments that involve deliberation.
 
@@ -60,7 +60,7 @@ Model specifications (`sonnet`, `codex:gpt-5.6-terra`, `agy:Gemini 3.1 Pro (High
 
 ### Test 1: Persona Expression
 
-- **1a. Factual judgment (30 calls).** Each persona classifies the 20 facts into S/W/O/T.
+- **1a. Factual judgment (30 calls).** Each persona classifies every fact in the case (12 for Sakura Foods, 20 for Honda) as S/W/O/T.
 - **1b. Value judgment (30 calls).** Each persona ranks four strategies (SO, ST, WO, WT). The *textbook-order rate* is the share of personas returning the presentation order SO > ST > WO > WT.
 
 Pass requires all three:
@@ -75,10 +75,16 @@ Pass requires all three:
 
 Seven attributes (for example, risk aversion and openness to change) are each set high and low. The test checks two layers:
 
-- **Self-report:** questionnaire items asking the persona to rate its own traits
-- **Behavior:** strategy ranking and fact classification
+- **Self-report** (`scale`): questionnaire items asking the persona to rate its own traits
+- **Behavior:** strategy ranking (`rank_SO` … `rank_WT`) and fact classification (`def_amb`, `def_det`)
 
 Pass: for every attribute, the high–low difference on the behavioral measures is significant (p < .05) and in the direction predicted by theory. All models passed. The diagnostic value lies in the gap between self-report and behavioral effect sizes, which is what reveals silent failure.
+
+The norm has two layers, depending on the kind of fact:
+
+- **Unambiguous facts** have a correct answer, so a trait should not change how they are classified (`def_det`). A change would be a **forbidden-pathway violation**.
+- **Ambiguous facts** have no correct answer; a trait may legitimately change how they are read (`def_amb`), as it does in people.
+- **Strategy ranking** is a value judgment and should change with traits (`rank_*`).
 
 ### Test 3: Persona Belief-Update
 
@@ -94,9 +100,61 @@ Twelve personas receive counterarguments against their own classifications of 3 
 Pass requires all three:
 
 1. Change rate under strong rebuttal is above 15% (otherwise **rigid**).
-2. Change rate under weak rebuttal is 0% (the persona discriminates argument quality).
+2. Change rate under weak rebuttal is 0% (otherwise a **forbidden violation**: the persona gives way to an argument with no evidence).
 3. Change rate under majority pressure is below 50% (otherwise **acquiescent**).
 
-## Note on the summary fields
+## Glossary
 
-`screening_summary.json` reports Test 1a under `check1a`, Test 1b under `check1b`, and Test 3 under `check2` (internal names from an earlier version of the battery). Field labels such as `判別` (discriminating), `統制` (control), and `その他` (neutral) are in Japanese.
+### Names in files and folders
+
+| Name | Meaning |
+|---|---|
+| `sakura_*` / `honda_*` | Study 1 (Sakura Foods case) / Study 2 (Honda Vietnam case) |
+| `law`, as in `run_law_generic.py`, `law_sakura_*` | Test 2 (nomological test) |
+| `check1a`, `check1b` | Test 1: fact classification (1a) and strategy ranking (1b) |
+| `check2` | Test 3 (belief update) |
+| `判別` / `統制` / `その他` | discriminating / control / other facts |
+| S, W, O, T | Strength, Weakness, Opportunity, Threat (SWOT) |
+| SO, ST, WO, WT | the four strategies: use strengths for opportunities (SO), use strengths against threats (ST), fix weaknesses to seize opportunities (WO), minimize weaknesses and avoid threats (WT; defensive) |
+
+### Tests 1 & 3: `simulation/persona_screening/<tag>/`
+
+`screening_summary.json`
+
+| Field | Meaning |
+|---|---|
+| `check1a.item_table` | per fact: the votes for S/W/O/T and whether it is discriminating or control |
+| `check1b.textbook_rate`, `check1b.patterns` | share of personas giving the textbook order SO > ST > WO > WT; count of each ranking pattern (written `SO-ST-WO-WT`, top priority first) |
+| `check2.<probe>.change_rate` | share of probes after which the persona changed its classification; `<probe>` is `strong`, `medium`, `weak`, or `majority` |
+| `check2.<probe>.follow_rate` | share that changed to the category the counterargument proposed |
+| `check2.dose_ordering_ok` | changes follow argument quality: strong > weak, strong > majority, and strong ≥ medium ≥ weak |
+| `check2.rigidity_signal` | strong-evidence change rate ≤ 15% (rigid) |
+| `check2.sycophancy_signal` | majority-pressure change rate ≥ 50% (acquiescent) |
+| `_meta` | model, stimulus file, number of personas, cost |
+
+`screening_raw.json` holds every call. A Test 3 record (`check2_probes`; this one from `sakura_haiku`, reasoning text shortened):
+
+```json
+{"persona_name": "製餡職人統括B", "persona_category": "製造部門", "fact_id": 8,
+ "probe_type": "majority", "initial_category": "T", "target_category": "O",
+ "changed": true, "final_category": "O", "followed": true, "reasoning": "…"}
+```
+
+`check1a_classifications` and `check1b_rankings` hold each persona's classifications and rankings, keyed by persona id. The `reasoning` texts are the models' own explanations, in Japanese.
+
+### Test 2: `persona_generic/results/law_<tag>/`
+
+`summary.json` → `attributes.<attribute>.measures.<measure>` gives `high_mean`, `low_mean`, and `p` (high vs. low).
+
+| Measure | Meaning |
+|---|---|
+| `scale` | self-report score on the attribute's questionnaire (1–7) |
+| `def_amb` | number of ambiguous facts classified as W or T (defensive reading) |
+| `def_det` | the same for unambiguous facts; should not move |
+| `rank_SO`, `rank_ST`, `rank_WO`, `rank_WT` | rank given to each strategy (1 = top priority) |
+
+`raw.json` holds every call: `"kind": "scale"` records the questionnaire ratings, and `"kind": "judge"` records the fact classifications (`cats`) and the strategy ranking (`ranking`).
+
+### Summary tables: `data/`
+
+See `data/README.md`. In `battery_summary.csv`, `rigid` and `syco` are the rigidity and acquiescence flags, and `dose_ok` is the dose-ordering check.

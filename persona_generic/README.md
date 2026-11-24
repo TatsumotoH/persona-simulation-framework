@@ -12,11 +12,11 @@ The standardized diagnostic battery (Stage 1), used in both Study 1 (Sakura Food
 | `persona_check_honda_v1.json` | Tests 1 & 3 stimuli for Study 2: fact assignments, the four strategies, counterarguments | `persona_screening.py`, `run_law_generic.py` |
 | `attributes_v1.json` | Test 2: the seven persona attributes, their high/low wording, and self-report items | `run_law_generic.py` |
 
-In the stimulus files, `check1a` and `check1b` are Test 1 (fact classification and strategy ranking) and `check2` is Test 3. Fields named `note`, `rationale`, `anchor`, or `_meta` are documentation and are never sent to the models.
+Fields named `note`, `rationale`, `anchor`, or `_meta` are documentation and are never sent to the models. Other field names (`check1a`, `check2`, …) are explained in the glossary of `docs/BATTERY_MANUAL.md`.
 
 ## results/ — Test 2 outputs
 
-`law_sakura_<model>/` (Study 1) and `law_honda_<model>/` (Study 2), each with `summary.json` (high-vs-low effects per attribute and measure) and `raw.json` (every call).
+`law_sakura_<model>/` (Study 1) and `law_honda_<model>/` (Study 2), each with `summary.json` (high-vs-low effects per attribute and measure) and `raw.json` (every call). The measures (`scale`, `def_amb`, `def_det`, `rank_*`) are explained in the glossary.
 
 ## run_battery_sakura.sh
 
