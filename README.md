@@ -134,7 +134,7 @@ The case summary (`simulation/data/case_context.txt`, `persona_generic/data/case
 
 ## What is not included
 
-- **Group simulation raw outputs and detailed analysis notebooks** (Study 2; several GB). They will be released with the full paper; the raw outputs can be shared on request.
+- **Group simulation raw outputs and detailed analysis notebooks** (Study 2). They will be released with the full paper; the raw outputs can be shared on request.
 - **Full text of the Honda Vietnam case article.** It is freely available from J-STAGE (see "Case materials" above). This repository contains only the short case summary and 20 facts used as stimuli.
 - **Human benchmark data** (pilot data from 33 working professionals), to protect participants' privacy.
 - **TIPI-J items** (Oshio, Abe & Cutrone 2012) used by `persona_calibration/run_dissociation.py`. Prepare `persona_calibration/tipi_j_items.json` from the original publication; the expected format is described at the top of the script.
