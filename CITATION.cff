@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite it as below."
+title: "Persona Simulation Framework: Behavioral diagnostic and calibration framework for persona-based organizational simulations with AI models"
+type: software
+authors:
+  - family-names: Tatsumoto
+    given-names: Hirofumi
+    affiliation: University of Tsukuba
+repository-code: "https://github.com/TatsumotoH/persona-simulation-framework"
+license: MIT
+date-released: "2026-11-24"
+keywords:
+  - large language models
+  - persona simulation
+  - organizational simulation
+  - construct validity
+  - silent failure
+preferred-citation:
+  type: generic
+  title: "Calibrate Before You Simulate: Detecting Silent Failure in AI Persona-Based Organizational Simulations"
+  authors:
+    - family-names: Tatsumoto
+      given-names: Hirofumi
+      affiliation: University of Tsukuba
+  year: 2026
+  notes: "Research proposal submitted to the Organization Science special issue \"AI-Enabled Frontiers in Organizational Science.\""
