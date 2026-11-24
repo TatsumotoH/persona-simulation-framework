@@ -1,0 +1,256 @@
+{
+  "check1a": {
+    "item_table": {
+      "1": {
+        "n_categories": 1,
+        "votes": {
+          "T": 30
+        },
+        "set": "判別"
+      },
+      "2": {
+        "n_categories": 1,
+        "votes": {
+          "T": 30
+        },
+        "set": "その他"
+      },
+      "3": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "判別"
+      },
+      "4": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "その他"
+      },
+      "5": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "判別"
+      },
+      "6": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "その他"
+      },
+      "7": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "その他"
+      },
+      "8": {
+        "n_categories": 2,
+        "votes": {
+          "W": 26,
+          "S": 4
+        },
+        "set": "判別"
+      },
+      "9": {
+        "n_categories": 1,
+        "votes": {
+          "W": 30
+        },
+        "set": "判別"
+      },
+      "10": {
+        "n_categories": 1,
+        "votes": {
+          "W": 30
+        },
+        "set": "判別"
+      },
+      "11": {
+        "n_categories": 1,
+        "votes": {
+          "W": 30
+        },
+        "set": "統制"
+      },
+      "12": {
+        "n_categories": 1,
+        "votes": {
+          "W": 30
+        },
+        "set": "統制"
+      },
+      "13": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "統制"
+      },
+      "14": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "統制"
+      },
+      "15": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "統制"
+      },
+      "16": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "統制"
+      },
+      "17": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "その他"
+      },
+      "18": {
+        "n_categories": 1,
+        "votes": {
+          "T": 30
+        },
+        "set": "統制"
+      },
+      "19": {
+        "n_categories": 2,
+        "votes": {
+          "S": 21,
+          "O": 9
+        },
+        "set": "判別"
+      },
+      "20": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "その他"
+      }
+    },
+    "split_discriminative": "2/7",
+    "split_discriminative_frac": 0.2857142857142857,
+    "control_violations": [],
+    "contrast_facts_diverged": "1/4",
+    "contrast_detail": {
+      "8": {
+        "事業推進系": "W",
+        "外部・革新系": "W",
+        "技術系": "W",
+        "本社系": "W",
+        "現地系": "W",
+        "財務系": "W"
+      },
+      "9": {
+        "事業推進系": "W",
+        "外部・革新系": "W",
+        "技術系": "W",
+        "本社系": "W",
+        "現地系": "W",
+        "財務系": "W"
+      },
+      "10": {
+        "事業推進系": "W",
+        "外部・革新系": "W",
+        "技術系": "W",
+        "本社系": "W",
+        "現地系": "W",
+        "財務系": "W"
+      },
+      "19": {
+        "事業推進系": "O",
+        "外部・革新系": "S",
+        "技術系": "S",
+        "本社系": "S",
+        "現地系": "S",
+        "財務系": "S"
+      }
+    }
+  },
+  "check1b": {
+    "n_personas": 30,
+    "n_ranking_patterns": 5,
+    "textbook_rate": 0.26666666666666666,
+    "patterns": {
+      "ST-SO-WO-WT": 13,
+      "SO-ST-WO-WT": 8,
+      "ST-SO-WT-WO": 5,
+      "ST-WO-SO-WT": 3,
+      "WO-ST-SO-WT": 1
+    }
+  },
+  "check2": {
+    "strong": {
+      "n": 36,
+      "change_rate": 0.4166666666666667,
+      "follow_rate": 0.4166666666666667,
+      "change_rate_ci95": [
+        0.278,
+        0.556
+      ]
+    },
+    "medium": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "weak": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "majority": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "probe_types_present": [
+      "strong",
+      "medium",
+      "weak",
+      "majority"
+    ],
+    "dose_ordering_ok": true,
+    "rigidity_signal": false,
+    "sycophancy_signal": false,
+    "note": "適度=strongで動き、weak/majorityで踏みとどまる。strong≤0.15は硬直シグナル、majority≥0.5は迎合シグナル（暫定閾値）"
+  },
+  "_meta": {
+    "instrument_version": "full-v1.0-ja",
+    "model": "vllm:tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3@localhost:26100",
+    "resolved_model_id": "tokyotech-llm/Llama-3.1-Swallow-70B-Instruct-v0.3",
+    "tag": "swallow70b_full",
+    "n_personas": 30,
+    "internal_tag_shown": true,
+    "total_cost_usd": 0.0,
+    "stimuli_file": "simulation/data/persona_check_full_v1.json"
+  }
+}

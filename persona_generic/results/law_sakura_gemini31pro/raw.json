@@ -1,0 +1,6698 @@
+[
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "6": 7,
+      "5": 1,
+      "3": 1,
+      "2": 7,
+      "4": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "2": 7,
+      "4": 7,
+      "6": 7,
+      "1": 7,
+      "3": 1,
+      "5": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "6": 7,
+      "4": 7,
+      "5": 1,
+      "3": 1,
+      "2": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "5": 7,
+      "3": 7,
+      "1": 1,
+      "6": 1,
+      "4": 1,
+      "2": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "5": 7,
+      "2": 1,
+      "6": 1,
+      "4": 1,
+      "1": 1,
+      "3": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "2": 1,
+      "5": 7,
+      "1": 1,
+      "6": 1,
+      "3": 7,
+      "4": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "2": 1,
+      "6": 1,
+      "5": 7,
+      "3": 7,
+      "1": 1,
+      "4": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "3": 7,
+      "5": 7,
+      "2": 1,
+      "6": 1,
+      "1": 1,
+      "4": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "4": 1,
+      "5": 7,
+      "2": 1,
+      "6": 1,
+      "3": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "4": 1,
+      "6": 1,
+      "1": 1,
+      "2": 1,
+      "5": 7,
+      "3": 7
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "overconfidence",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "4": 7,
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "5": 1,
+      "2": 7,
+      "3": 1,
+      "6": 1,
+      "4": 7,
+      "1": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "4": 7,
+      "2": 7,
+      "6": 1,
+      "5": 1,
+      "3": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "6": 7,
+      "4": 1,
+      "1": 1,
+      "3": 7,
+      "5": 7,
+      "2": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "6": 7,
+      "2": 1,
+      "1": 1,
+      "3": 7,
+      "5": 7,
+      "4": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "6": 7,
+      "3": 7,
+      "4": 1,
+      "1": 1,
+      "5": 7,
+      "2": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "5": 7,
+      "6": 7,
+      "4": 1,
+      "2": 1,
+      "3": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 7
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "regulatory_focus",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "S",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "4": 1,
+      "5": 7,
+      "3": 7,
+      "1": 7,
+      "6": 1,
+      "2": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "2": 1,
+      "6": 1,
+      "4": 1,
+      "5": 7,
+      "3": 7,
+      "1": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "3": 1,
+      "5": 1,
+      "4": 7,
+      "6": 7,
+      "2": 7,
+      "1": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "3": 1,
+      "5": 1,
+      "4": 7,
+      "1": 1,
+      "6": 7,
+      "2": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "6": 7,
+      "4": 7,
+      "2": 7,
+      "5": 1,
+      "1": 1,
+      "3": 1
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "positive_self_concept",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "5": 7,
+      "3": 1,
+      "4": 7,
+      "2": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "4": 7,
+      "3": 1,
+      "1": 7,
+      "6": 1,
+      "5": 7,
+      "2": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "3": 1,
+      "5": 7,
+      "2": 7,
+      "1": 7,
+      "6": 1,
+      "4": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "2": 7,
+      "6": 1,
+      "3": 1,
+      "1": 7,
+      "4": 7,
+      "5": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "2": 7,
+      "6": 1,
+      "5": 7,
+      "1": 7,
+      "4": 7,
+      "3": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "5": 1,
+      "6": 7,
+      "4": 1,
+      "1": 1,
+      "3": 7,
+      "2": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "6": 7,
+      "4": 1,
+      "2": 1,
+      "3": 7,
+      "5": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "5": 1,
+      "6": 7,
+      "2": 1,
+      "3": 7,
+      "4": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "6": 7,
+      "1": 1,
+      "5": 1,
+      "4": 1,
+      "2": 1,
+      "3": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "2": 1,
+      "6": 7,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "1": 1
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "narcissism",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "2": 7,
+      "3": 1,
+      "6": 7,
+      "1": 7,
+      "4": 7,
+      "5": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "5": 1,
+      "4": 7,
+      "3": 1,
+      "6": 7,
+      "2": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "O",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "4": 1,
+      "6": 1,
+      "2": 1,
+      "3": 7,
+      "5": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "loss_aversion",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "SO",
+      "WO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "4": 7,
+      "5": 1,
+      "6": 7,
+      "3": 1,
+      "2": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "S",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "5": 1,
+      "4": 7,
+      "1": 7,
+      "6": 7,
+      "2": 7,
+      "3": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 7,
+      "2": 7,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 7
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "WO",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 0,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 1,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "high",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "ST",
+      "SO",
+      "WO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 2,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 3,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 4,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 5,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 6,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 7,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "2": 1,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 8,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 9,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 10,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 11,
+    "kind": "scale",
+    "ratings": {
+      "1": 1,
+      "2": 1,
+      "3": 7,
+      "4": 1,
+      "5": 7,
+      "6": 1
+    }
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "SO",
+      "ST",
+      "WT"
+    ]
+  },
+  {
+    "attr": "sunk_cost",
+    "level": "low",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "WO",
+      "SO",
+      "ST"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "S",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "female",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "male",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WT",
+      "ST",
+      "WO",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 1,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 0,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 2,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 3,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 4,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 5,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 7,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "W",
+      "6": "O",
+      "7": "S",
+      "8": "T",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 6,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 8,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 9,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "WT",
+      "SO"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 11,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "ST",
+      "SO",
+      "WT"
+    ]
+  },
+  {
+    "attr": "gender",
+    "level": "unmarked",
+    "rep": 10,
+    "kind": "judge",
+    "cats": {
+      "1": "T",
+      "2": "S",
+      "3": "O",
+      "4": "W",
+      "5": "S",
+      "6": "O",
+      "7": "W",
+      "8": "O",
+      "9": "T",
+      "10": "S",
+      "11": "W",
+      "12": "T"
+    },
+    "ranking": [
+      "WO",
+      "WT",
+      "ST",
+      "SO"
+    ]
+  }
+]

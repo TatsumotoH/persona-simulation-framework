@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.html
+.env
+*.key
+
+output/
+simulation/output/
+persona_calibration/tipi_j_items.json

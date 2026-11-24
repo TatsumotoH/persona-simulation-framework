@@ -1,0 +1,215 @@
+{
+  "check1a": {
+    "item_table": {
+      "1": {
+        "n_categories": 1,
+        "votes": {
+          "T": 30
+        },
+        "set": "統制"
+      },
+      "2": {
+        "n_categories": 1,
+        "votes": {
+          "S": 30
+        },
+        "set": "統制"
+      },
+      "3": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "統制"
+      },
+      "4": {
+        "n_categories": 2,
+        "votes": {
+          "W": 29,
+          "T": 1
+        },
+        "set": "統制"
+      },
+      "5": {
+        "n_categories": 2,
+        "votes": {
+          "S": 24,
+          "W": 6
+        },
+        "set": "判別"
+      },
+      "6": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "判別"
+      },
+      "7": {
+        "n_categories": 2,
+        "votes": {
+          "W": 11,
+          "S": 19
+        },
+        "set": "判別"
+      },
+      "8": {
+        "n_categories": 2,
+        "votes": {
+          "O": 29,
+          "T": 1
+        },
+        "set": "判別"
+      },
+      "9": {
+        "n_categories": 2,
+        "votes": {
+          "T": 27,
+          "O": 3
+        },
+        "set": "判別"
+      },
+      "10": {
+        "n_categories": 1,
+        "votes": {
+          "O": 30
+        },
+        "set": "判別"
+      },
+      "11": {
+        "n_categories": 2,
+        "votes": {
+          "W": 26,
+          "S": 4
+        },
+        "set": "判別"
+      },
+      "12": {
+        "n_categories": 1,
+        "votes": {
+          "T": 30
+        },
+        "set": "統制"
+      }
+    },
+    "split_discriminative": "5/7",
+    "split_discriminative_frac": 0.7142857142857143,
+    "control_violations": [
+      {
+        "fact_id": 4,
+        "expected": "W",
+        "n_wrong": 1
+      }
+    ],
+    "contrast_facts_diverged": "1/4",
+    "contrast_detail": {
+      "5": {
+        "創業家": "W",
+        "商品開発": "S",
+        "営業部門": "S",
+        "海外事業": "S",
+        "製造部門": "S",
+        "財務": "S"
+      },
+      "6": {
+        "創業家": "O",
+        "商品開発": "O",
+        "営業部門": "O",
+        "海外事業": "O",
+        "製造部門": "O",
+        "財務": "O"
+      },
+      "8": {
+        "創業家": "O",
+        "商品開発": "O",
+        "営業部門": "O",
+        "海外事業": "O",
+        "製造部門": "O",
+        "財務": "O"
+      },
+      "11": {
+        "創業家": "W",
+        "商品開発": "W",
+        "営業部門": "W",
+        "海外事業": "W",
+        "製造部門": "W",
+        "財務": "W"
+      }
+    }
+  },
+  "check1b": {
+    "n_personas": 30,
+    "n_ranking_patterns": 10,
+    "textbook_rate": 0.16666666666666666,
+    "patterns": {
+      "SO-ST-WO-WT": 5,
+      "WO-SO-WT-ST": 4,
+      "WO-ST-SO-WT": 4,
+      "ST-WO-WT-SO": 4,
+      "ST-SO-WO-WT": 4,
+      "SO-WO-ST-WT": 4,
+      "ST-WO-SO-WT": 2,
+      "WO-ST-WT-SO": 1,
+      "WO-SO-ST-WT": 1,
+      "WO-WT-SO-ST": 1
+    }
+  },
+  "check2": {
+    "strong": {
+      "n": 36,
+      "change_rate": 0.05555555555555555,
+      "follow_rate": 0.027777777777777776,
+      "change_rate_ci95": [
+        0.0,
+        0.139
+      ]
+    },
+    "medium": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "weak": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "majority": {
+      "n": 36,
+      "change_rate": 0.0,
+      "follow_rate": 0.0,
+      "change_rate_ci95": [
+        0.0,
+        0.0
+      ]
+    },
+    "probe_types_present": [
+      "strong",
+      "medium",
+      "weak",
+      "majority"
+    ],
+    "dose_ordering_ok": true,
+    "rigidity_signal": true,
+    "sycophancy_signal": false,
+    "note": "適度=strongで動き、weak/majorityで踏みとどまる。strong≤0.15は硬直シグナル、majority≥0.5は迎合シグナル（暫定閾値）"
+  },
+  "_meta": {
+    "instrument_version": "screening-v0",
+    "model": "ollama:qwen3:32b",
+    "resolved_model_id": "qwen3:32b",
+    "tag": "sakura_qwen32b",
+    "n_personas": 30,
+    "internal_tag_shown": false,
+    "total_cost_usd": 0.0,
+    "stimuli_file": "persona_generic/data/persona_check_sakura_v1.json"
+  }
+}

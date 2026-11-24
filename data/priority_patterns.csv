@@ -1,0 +1,95 @@
+model,pattern,count,n_personas
+Claude Sonnet,WT-ST-WO-SO,6,30
+Claude Sonnet,WO-SO-WT-ST,4,30
+Claude Sonnet,SO-WO-ST-WT,4,30
+Claude Sonnet,ST-WT-WO-SO,3,30
+Claude Sonnet,ST-WT-SO-WO,3,30
+Claude Sonnet,WT-WO-ST-SO,3,30
+Claude Sonnet,WO-SO-ST-WT,3,30
+Claude Sonnet,WO-WT-ST-SO,2,30
+Claude Sonnet,ST-SO-WT-WO,1,30
+Claude Sonnet,WO-ST-WT-SO,1,30
+Claude Opus,WT-ST-WO-SO,5,30
+Claude Opus,ST-WT-SO-WO,4,30
+Claude Opus,WO-SO-WT-ST,4,30
+Claude Opus,WO-SO-ST-WT,3,30
+Claude Opus,WO-WT-ST-SO,2,30
+Claude Opus,ST-WT-WO-SO,2,30
+Claude Opus,WT-WO-ST-SO,2,30
+Claude Opus,ST-SO-WT-WO,2,30
+Claude Opus,SO-WO-ST-WT,2,30
+Claude Opus,WO-ST-WT-SO,2,30
+Claude Opus,ST-WO-WT-SO,1,30
+Claude Opus,SO-WO-WT-ST,1,30
+Claude Haiku,WO-SO-ST-WT,8,30
+Claude Haiku,ST-WO-WT-SO,5,30
+Claude Haiku,SO-WO-ST-WT,4,30
+Claude Haiku,WO-ST-WT-SO,3,30
+Claude Haiku,WT-ST-WO-SO,3,30
+Claude Haiku,WO-ST-SO-WT,2,30
+Claude Haiku,ST-WT-SO-WO,1,30
+Claude Haiku,WT-ST-SO-WO,1,30
+Claude Haiku,ST-SO-WO-WT,1,30
+Claude Haiku,ST-SO-WT-WO,1,30
+Claude Haiku,ST-WO-SO-WT,1,30
+GPT-5.6 terra,WO-SO-ST-WT,6,30
+GPT-5.6 terra,WT-ST-WO-SO,5,30
+GPT-5.6 terra,WT-WO-ST-SO,5,30
+GPT-5.6 terra,ST-SO-WT-WO,4,30
+GPT-5.6 terra,SO-WO-ST-WT,4,30
+GPT-5.6 terra,ST-WT-WO-SO,2,30
+GPT-5.6 terra,WO-ST-SO-WT,1,30
+GPT-5.6 terra,ST-WT-SO-WO,1,30
+GPT-5.6 terra,WO-SO-WT-ST,1,30
+GPT-5.6 terra,WO-WT-ST-SO,1,30
+GPT-5.6 sol,WT-ST-WO-SO,7,30
+GPT-5.6 sol,WO-SO-WT-ST,5,30
+GPT-5.6 sol,ST-WT-SO-WO,4,30
+GPT-5.6 sol,WT-WO-ST-SO,4,30
+GPT-5.6 sol,SO-WO-WT-ST,3,30
+GPT-5.6 sol,WO-WT-SO-ST,2,30
+GPT-5.6 sol,WO-ST-SO-WT,1,30
+GPT-5.6 sol,ST-SO-WT-WO,1,30
+GPT-5.6 sol,WO-SO-ST-WT,1,30
+GPT-5.6 sol,SO-WO-ST-WT,1,30
+GPT-5.6 sol,ST-WT-WO-SO,1,30
+GPT-5.6 luna,WT-ST-WO-SO,9,30
+GPT-5.6 luna,ST-WT-WO-SO,5,30
+GPT-5.6 luna,WT-WO-ST-SO,3,30
+GPT-5.6 luna,WO-WT-ST-SO,2,30
+GPT-5.6 luna,WO-SO-WT-ST,2,30
+GPT-5.6 luna,SO-WO-WT-ST,2,30
+GPT-5.6 luna,WO-SO-ST-WT,2,30
+GPT-5.6 luna,WO-WT-SO-ST,2,30
+GPT-5.6 luna,SO-WO-ST-WT,2,30
+GPT-5.6 luna,ST-WT-SO-WO,1,30
+Gemini 3.1 Pro,WT-ST-WO-SO,6,30
+Gemini 3.1 Pro,ST-WT-SO-WO,5,30
+Gemini 3.1 Pro,WO-SO-ST-WT,4,30
+Gemini 3.1 Pro,WO-SO-WT-ST,3,30
+Gemini 3.1 Pro,SO-WO-ST-WT,3,30
+Gemini 3.1 Pro,WT-WO-ST-SO,2,30
+Gemini 3.1 Pro,ST-SO-WT-WO,2,30
+Gemini 3.1 Pro,WO-WT-ST-SO,1,30
+Gemini 3.1 Pro,ST-WT-WO-SO,1,30
+Gemini 3.1 Pro,SO-WO-WT-ST,1,30
+Gemini 3.1 Pro,WT-ST-SO-WO,1,30
+Gemini 3.1 Pro,SO-ST-WO-WT,1,30
+Gemini 3.5 Flash,WT-ST-WO-SO,9,30
+Gemini 3.5 Flash,ST-WT-SO-WO,5,30
+Gemini 3.5 Flash,WO-SO-ST-WT,5,30
+Gemini 3.5 Flash,SO-WO-ST-WT,4,30
+Gemini 3.5 Flash,ST-WT-WO-SO,3,30
+Gemini 3.5 Flash,WO-SO-WT-ST,2,30
+Gemini 3.5 Flash,WO-WT-ST-SO,1,30
+Gemini 3.5 Flash,WT-ST-SO-WO,1,30
+Qwen3-32B,SO-ST-WO-WT,5,30
+Qwen3-32B,WO-SO-WT-ST,4,30
+Qwen3-32B,WO-ST-SO-WT,4,30
+Qwen3-32B,ST-WO-WT-SO,4,30
+Qwen3-32B,ST-SO-WO-WT,4,30
+Qwen3-32B,SO-WO-ST-WT,4,30
+Qwen3-32B,ST-WO-SO-WT,2,30
+Qwen3-32B,WO-ST-WT-SO,1,30
+Qwen3-32B,WO-SO-ST-WT,1,30
+Qwen3-32B,WO-WT-SO-ST,1,30

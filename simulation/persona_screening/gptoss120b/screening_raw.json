@@ -1,0 +1,1194 @@
+{
+  "personas": [
+    {
+      "id": 1,
+      "name": "品質重視役員A",
+      "category": "本社系"
+    },
+    {
+      "id": 2,
+      "name": "品質重視役員B",
+      "category": "本社系"
+    },
+    {
+      "id": 3,
+      "name": "品質重視役員C",
+      "category": "本社系"
+    },
+    {
+      "id": 4,
+      "name": "ブランド戦略部長A",
+      "category": "本社系"
+    },
+    {
+      "id": 6,
+      "name": "シェア拡大派事業部長A",
+      "category": "事業推進系"
+    },
+    {
+      "id": 7,
+      "name": "シェア拡大派事業部長B",
+      "category": "事業推進系"
+    },
+    {
+      "id": 8,
+      "name": "シェア拡大派事業部長C",
+      "category": "事業推進系"
+    },
+    {
+      "id": 9,
+      "name": "営業本部長A",
+      "category": "事業推進系"
+    }
+  ],
+  "check1a_classifications": {
+    "3": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "大量の低価格・低品質な中国製バイクが市場へ流入し、ホンダのシェアとブランドの品質イメージを急速に蝕む脅威である。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "タイでのローコストモデル開発と70%シェア獲得は、低価格帯でも品質を保ちつつ市場を支配できるハードウェア・サプライチェーンの強みを示す。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "ベトナム向けWaveαの性能制限は価格は下げたが、品質・性能が妥協されており、ブランドの品質基準低下の懸念を招く。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "スーパードリームやFutureといった高価格モデルに依存したポジショニングは、価格敏感な市場でシェア喪失を招く弱点である。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "『売れる人に売る』戦略は高ロイヤルティ層に限定され、低価格帯需要を見落とすことで市場全体への対応が遅れる。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "中国製部品を品質基準に照合して選択的に採用することで、コスト削減と品質維持の両立が可能な内部強みとなる。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "中国車流入からシェア急落への対応が約2年かかった意思決定遅延は、品質維持の機会を逃す重大な弱点である。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全域で中間層が急増し、購買力が向上しているため、品質志向の高いホンダ製二輪への需要拡大という機会がある。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーが品質を向上させ、価格優位を保ちつつ品質差を縮小すれば、将来的にホンダの品質競争優位が脅かされるリスクがある。"
+      }
+    ],
+    "1": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "中国製イミテーションバイクは低価格で大量流入し、品質に対する顧客の期待を下げ、ホンダの高品質・高価格ブランドイメージを脅かす重大な外部脅威である。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "タイ市場でのWaveシリーズによる段階的ローコストモデル展開と70%シェアは、低価格帯でも品質基準を維持できる技術力とサプライチェーンの強みを示す。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "ベトナム向けWave αの性能制限は価格は下げるが、ブランドの高性能・高品質イメージを損ねる恐れがあり、品質重視の観点からは弱みと評価できる。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "スーパードリームやFutureといった高価格モデルは、ベトナム市場の価格感度に合わず、市場シェア喪失につながる戦略的弱点である。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "「売れる人に売る」高ロイヤルティ戦略は、低価格帯の大量顧客を取り込めず、ブランド価値を守りつつ市場シェアを失うリスクがある。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "中国製部品を厳格な品質基準で選択的採用したことは、コスト削減と品質保持の両立を示す内部的強みである。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "中国車流入後のWave α投入までに約2年要した意思決定の遅さは、市場変化へ迅速に対応できない組織的弱点であり、品質維持にも影響を及ぼす。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全体の中間層拡大は購買力向上を意味し、ホンダが高品質かつ価格帯を拡張すれば新たな需要を取り込める大きな機会である。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーの品質改善ポテンシャルは、将来的に価格優位を保ちつつ品質差が縮小し、ホンダの品質優位性が相対的に脅かされる外部脅威となる。"
+      }
+    ],
+    "2": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "中国製イミテーションバイクの大量流入は、約半額の価格で市場シェアを急拡大させ、ホンダのプレミアムブランドイメージと価格差を直接脅かす重大な外部脅威である。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "タイでのローコストモデル開発と70%シェア達成は、プラットフォーム共通化と現地調達によるコスト競争力を示す内部的な強みであり、ベトナムでも同様の手法を応用できる土台となる。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "Wave αの性能制限と低価格設定は、ブランドの高性能・高品質というプレミアムイメージを低減させ、価格志向の市場向けに妥協したことが弱みと捉えられる。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "Super DreamやFutureといった高価格モデルは、ベトナムの購買力に対して過大であり、売れる人に売る戦略が市場シェア喪失の一因となる。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "「売れる人に売る」高ロイヤルティ戦略は、低価格帯市場を無視しているため、価格競争が激化する環境下でブランドの範囲を狭める弱点である。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "中国製部品を品質基準に照合し採用した実績は、コスト削減と品質保持を両立できる内部的強みであり、低価格競争に対抗する手段となる。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "中国車流入後の意思決定遅延は、機会を逃し市場シェアを失う原因となり、迅速な意思決定が欠如していることを示す明確な弱みである。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全体で中間層が急増することは、購買力が向上した新たな顧客層へのアプローチ機会であり、価格と品質を適切にバランスすればプレミアムブランドでもシェア拡大が可能になる。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーは品質向上の学習曲線が急速で、将来的に価格優位を保ちつつ品質を追いつくリスクがあり、ホンダのプレミアム差別化を長期的に脅かす外部脅威である。"
+      }
+    ],
+    "4": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "大量の低価格中国製バイクが市場に流入し、シェアが急激に減少したことは、ホンダの高価格・高ブランド価値戦略に対する直接的な脅威です。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "タイでのローコストモデル開発と70%シェア達成は、低価格帯製品開発力と現地調達ネットワークという強みであり、ベトナムでも同様の戦略を再現できる土台です。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "Wave αの性能制限は価格は抑えるものの、ブランドイメージを低価格・低性能に引き下げるリスクがあり、ブランド・アーキテクチャ再設計の遅れを示す弱点です。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "スーパードリームやFutureといった高価格モデルは、ベトナムの急拡大する中間層市場に対して価格が合わず、低価格帯への参入不足を招く弱みです。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 3,
+        "reasoning": "「売れる人に売る」高ロイヤルティ戦略は、既存の熱狂的ファンには有効ですが、低価格帯を狙う新規顧客層へのリーチが欠如している点で弱点となります。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 3,
+        "reasoning": "中国製部品の選択的採用はコスト削減と品質維持を両立できる点で、低価格化に貢献する内部的な強みです。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "中国車流入後のWave α投入までに約2年かかった意思決定の遅さは、機動力不足という組織的弱点を示しています。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全体で中間層が急増していることは、購買力のある新たな顧客層が出現している機会であり、適切な価格帯製品でシェア回復が期待できます。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーが品質向上しながら価格優位を維持する可能性は、将来的に価格だけでなく品質でも競争できる脅威となります。"
+      }
+    ],
+    "6": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "中国製イミテーションバイクの大量流入は外部からの価格競争圧力であり、ホンダのシェア急速低下の直接要因となるため、脅威と判断する。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "タイでのWaveシリーズによるローコストモデル展開と70%シェア達成は、低価格車開発力と市場浸透ノウハウという強みである。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "ベトナム向けWave αは性能制限と価格設定だけで対応し、ブランド価値や製品訴求力が低下する可能性があるため、弱みと見る。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "スーパードリーム・Futureといった高価格モデルは、ベトナムの価格感度の高い層に訴求できず、シェア拡大に阻害要因となる。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "「売れる人に売る」高ロイヤルティ戦略は、低価格市場を放置しており、シェア獲得の機会ロスとなる。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "中国車流入からのシェア喪失に対し、Wave α投入までに約2年かかった意思決定遅延は、迅速な市場対応力の欠如を示す弱点である。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全体で中間層が急速に拡大していることは、購買力向上と低価格モデル需要増加の大きな機会を提供する。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーは品質向上のポテンシャルを持ち、価格優位を維持しつつ品質が追いつけば、将来的にホンダの競争優位を脅かす脅威となる。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "タイのWave Zで中国部品を品質基準に照合して採用したことは、コスト削減と供給網多様化という内部的強みを示す。"
+      }
+    ],
+    "7": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "Chinese imitation motorcycles entered Vietnam at half Honda's price, causing a 3.5x market surge and immediate share loss. As a share‑expansion leader, this price‑driven influx is a clear external threat."
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "Honda's proven track record in Thailand with Wave 125/100/Z secured 70% market share through low‑cost models. This demonstrates strong capability to develop affordable bikes and dominate price‑sensitive markets."
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "Wave α was spec‑down to 80 km/h and priced at $800, but its launch lagged two years after the Chinese surge, indicating delayed responsiveness and insufficient performance for aspirational customers."
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "High‑price positioning of Super Dream and Future targets a niche segment, leaving the mass‑market low‑price tier unattended—an internal weakness for rapid share growth."
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "The \"sell to those who can buy\" loyalty strategy relies on premium customers and ignores the expanding low‑price segment, limiting market‑share expansion speed."
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "Selective adoption of Chinese‑origin components (e.g., camshaft, kick‑spindle) after quality screening reduces costs while preserving Honda standards—an internal strength for price competitiveness."
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "A two‑year gap between market disruption and Wave α launch reflects slow decision‑making, a critical weakness when speed is paramount for defending share."
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "Rapid growth of the ASEAN middle class expands disposable income, creating a sizable new customer base eager for affordable yet reliable motorcycles."
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "Chinese manufacturers are improving quality while retaining price advantage, posing a future threat that could erode Honda's cost‑quality edge if not countered."
+      }
+    ],
+    "8": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "中国製イミテーションバイクの低価格大量流入は、ベトナム市場でホンダのシェアを急速に奪い、価格競争という外部脅威となる。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "タイでのローコストWaveシリーズ開発と70%シェアの実績は、低価格モデルで市場を獲得できる内部的強みであり、ベトナム展開の成功資産。"
+      },
+      {
+        "fact_id": 8,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "Wave αの性能を時速80km以下に制限したスペックダウンは、低価格化はできたものの商品魅力が減少し、競合に対抗しきれない可能性がある。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "スーパードリームやFutureといった高価格モデルは、ベトナムの大量消費者層にリーチできず、シェア拡大の阻害要因となる。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "「売れる人に売る」戦略は高ロイヤリティ層に適しているが、低価格帯市場を無視しているためシェア獲得機会を逃す。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "中国製部品を品質基準に合致させて採用することで、コスト削減とサプライチェーン柔軟性を確保でき、価格競争力を高める内部的強み。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "中国車流入後の対応が約2年かかった意思決定の遅さは、市場変化への素早い対応力不足を示す弱点。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全体で中間層が急増し、購買力が上がっていることは、低価格だけでなくミドルクラス向け製品でシェアを拡大できる機会。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーが品質向上を続ければ、価格優位を保ちつつ競争力が上がり、将来的にホンダのシェアを再度脅かすリスクがある。"
+      }
+    ],
+    "9": [
+      {
+        "fact_id": 1,
+        "category": "T",
+        "confidence": 5,
+        "reasoning": "中国製イミテーションバイクの大量流入は価格競争を激化させ、ホンダの高価格帯製品のシェアを急速に奪う外部脅威である。販売網拡大の視点からも、価格で優位な競合はディーラーの販売目標達成を阻害する。"
+      },
+      {
+        "fact_id": 5,
+        "category": "S",
+        "confidence": 5,
+        "reasoning": "タイでのローコストモデル展開と70%シェアは、低価格帯での市場浸透力と現地生産・調達体制が既に確立していることを示す強みであり、同様のプラットフォーム戦略をベトナムに応用できる。"
+      },
+      {
+        "fact_id": 8,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "ベトナム向けWave αのスペックダウンと価格設定は、現地の交通環境と価格感度に即した製品投入であり、迅速に価格競争力を獲得できる販売戦略上の強みである。"
+      },
+      {
+        "fact_id": 9,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "スーパードリームやFutureといった高価格スポーツモデルは、ベトナムの大量市場に対して価格が高すぎ、ディーラーが販売しにくい弱点となっている。"
+      },
+      {
+        "fact_id": 10,
+        "category": "W",
+        "confidence": 4,
+        "reasoning": "『売れる人に売る』という高ロイヤルティ戦略は、購買力の拡大する中間層を取りこぼす結果となり、販売チャネル全体の拡大機会を失う弱みである。"
+      },
+      {
+        "fact_id": 19,
+        "category": "S",
+        "confidence": 4,
+        "reasoning": "中国製部品を品質基準に照合して採用することでコスト削減と品質維持を同時に実現でき、価格競争力を高めつつディーラー向けの利益率を向上させる強みとなる。"
+      },
+      {
+        "fact_id": 12,
+        "category": "W",
+        "confidence": 5,
+        "reasoning": "中国車流入後の対応が約2年遅れた意思決定プロセスは、市場変化に即応できない内部弱点であり、ディーラーが迅速に新製品を投入できない原因となる。"
+      },
+      {
+        "fact_id": 16,
+        "category": "O",
+        "confidence": 5,
+        "reasoning": "ASEAN全域で中間層が急増していることは、購買力が向上した新たな顧客層を創出し、適切な価格帯製品を展開すれば売上拡大の大きな機会となる。"
+      },
+      {
+        "fact_id": 18,
+        "category": "T",
+        "confidence": 4,
+        "reasoning": "中国メーカーが品質を向上させつつ価格優位を維持する可能性は、将来的に価格と品質の差が縮小し、ホンダの品質・ブランド優位性が脅かされる脅威である。"
+      }
+    ]
+  },
+  "check1b_rankings": {
+    "2": {
+      "rankings": {
+        "SO": 2,
+        "ST": 1,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "ブランドのプレミアム価値を守りつつ、急速に拡大した中国製安価バイクの脅威に即座に対応できる戦略が最重要である。まず、タイで実証済みのノウハウとプラットフォーム戦略を活用し、価格差を縮小した低価格モデルを段階的に投入する ST 戦略が、売上とシェアを守りながらブランドイメージを維持できる。次に、ホンダが持つ高品質・技術力とブランド認知を活かし、品質訴求型のローコスト攻勢 SO は、消費者が『品質で選ぶ』市場環境を活かすが、価格帯を下げすぎるとプレミアム感が薄れるリスクがあるため、ST の次に位置付ける。WO は組織的な意思決定プロセスの改善や現地 R&D 強化といった長期的基盤整備であり、短期的な市場シェア確保には直接的なインパクトが弱いため 3 位。WT は最悪シナリオ回避のために価格帯を大幅に下げ、既存の高価格ブランド戦略を根本的に転換する内容で、ブランドのプレミアムポジショニングを損なう恐れが最も大きく、最終順位とした。"
+    },
+    "3": {
+      "rankings": {
+        "SO": 3,
+        "ST": 4,
+        "WO": 2,
+        "WT": 1
+      },
+      "reasoning": "品質基準を一度下げると元に戻せないという信条から、まず最悪シナリオ（WT）を回避し、価格帯の見直しと意思決定の迅速化で品質を守る体制改革を最優先とする。次に、組織変革（WO）で現地R&Dを立ち上げ、‘買える価格で品質を届ける’体制を構築し、品質基準を維持しつつ市場拡大を可能にする。品質訴求型ローコスト攻勢（SO）は、品質とブランドを活かした価格帯拡大策として重要だが、まずは体制と基準の確保が前提なので三番目に位置付ける。時間との戦いを重視した先行投入（ST）は、速度重視が品質管理リスクを伴うため、最後に順位付けする。"
+    },
+    "1": {
+      "rankings": {
+        "SO": 2,
+        "ST": 3,
+        "WO": 1,
+        "WT": 4
+      },
+      "reasoning": "品質重視の立場からは、まず『規制の時間的猶予を活かした組織変革戦略（WO）』を最優先とする。現地R&Dの強化と意思決定プロセスの改革により、品質を確保しつつ市場変化に即応できる体制を構築すれば、ホンダの『技術のホンダ』ブランドを守る根幹ができる。次に『品質訴求型ローコスト攻勢戦略（SO）』を第二位に位置付ける。品質を前面に出した低価格モデルは、ブランド価値を犠牲にせず大衆市場への浸透を可能にし、政府規制と品質志向の高まりという外部機会を活かすために重要である。第三位は『時間との戦い -- 先行的市場確保戦略（ST）』である。迅速な低価格投入は市場シェア維持に寄与するが、価格差の急激な縮小はブランドイメージの低下リスクを伴うため、慎重に進めるべきである。最終的に『最悪シナリオ回避のための構造改革戦略（WT）』は、価格低下と組織改革を同時に強行する点でブランドと品質への危険性が高く、最後に位置付ける。"
+    },
+    "6": {
+      "rankings": {
+        "SO": 2,
+        "ST": 1,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "As the Share Expansion Division Head, my top priority is to capture market share before Chinese manufacturers improve quality (ST). This strategy uses Thailand's proven know-how and platform sharing to quickly launch lower‑price models, directly addressing the urgent price gap (T2) and leveraging existing supply‑chain strengths. The next priority is the SO strategy, which converts Honda's strong brand, technology, and platform advantages into affordable, quality‑focused products, sustaining the share gains achieved by ST. WO focuses on building local R&D and faster decision‑making; while essential for long‑term competitiveness, it is a medium‑term capability upgrade and thus ranks third. WT is a defensive, worst‑case mitigation plan; if ST and SO are executed effectively, the risk of market exit diminishes, making WT the lowest priority."
+    },
+    "4": {
+      "rankings": {
+        "SO": 1,
+        "ST": 2,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "ブランド価値の保全と低価格帯への参入は、まず既存の『ホンダ＝品質』という認知を活かした品質訴求型ローコスト戦略（SO）が最重要です。次に、価格差縮小を急務としつつもブランドイメージを損なわないために、プラットフォームとサプライチェーンを活用した迅速な市場確保策（ST）を続けます。長期的にブランドアーキテクチャを再設計し、現地R&Dや意思決定プロセスを改革する組織変革（WO）は、持続的な低価格品質提供の基盤となりますが、即効性はSO・STに劣ります。最終的に、最悪シナリオ回避のための構造改革（WT）は重要ながら、他の三つの戦略が実行されていない限りは後手に回るべきです。"
+    },
+    "7": {
+      "rankings": {
+        "SO": 2,
+        "ST": 1,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "STは中国製バイクの急速なシェア侵食に対抗し、価格差を縮小する低価格モデルを即座に投入することで市場シェアを守る最重要課題であり、意思決定の速さが求められる。SOは既存のブランド・技術・プラットフォームを活用した品質訴求型ローコスト戦略で、STで得た市場基盤を支える次のステップとして重要だが、実装速度はSTに次ぐ。WOは現地R&D立ち上げや意思決定プロセス改革といった組織的変革で、長期的な競争力強化に不可欠だが、短期的なシェア回復には時間がかかるため第3位。WTは最悪シナリオ回避のための深層改革で、上記施策が失敗した場合の救済策であり、リスクはあるものの他策でリスクを低減できるため最後に位置付ける。"
+    },
+    "8": {
+      "rankings": {
+        "SO": 2,
+        "ST": 1,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "2000年当時、ベトナム市場は中国製安価バイクの急激な浸透によりシェアが急落しており、時間的制約が最大の課題であった。したがって『時間との戦い‑先行的市場確保戦略（ST）』は、価格差を縮小し低価格モデルを速やかに投入して市場の橋頭堡を築くことが最優先となる。次に、ホンダが持つ『品質訴求型ローコスト攻勢戦略（SO）』は、政府規制と品質志向が高まる市場環境を活かし、プラットフォームとサプライチェーンを利用して手の届く価格帯に品質を落とし込むことでシェア拡大に直結する。『規制の時間的猶予を活かした組織変革戦略（WO）』は、現地R&Dの立ち上げや意思決定プロセス改革といった中長期的基盤整備であり、STとSOの効果を持続させるために重要だが、即効性は低いため3位に位置付ける。『最悪シナリオ回避のための構造改革戦略（WT）』は、リスク回避策として必要だが、上記3つの戦略が実行できれば最悪シナリオの発生確率は低減するため、優先度は最も低くなる。"
+    },
+    "9": {
+      "rankings": {
+        "SO": 1,
+        "ST": 2,
+        "WO": 3,
+        "WT": 4
+      },
+      "reasoning": "営業本部長として、販売拠点の確保と売上最大化が最優先課題です。SO戦略は『品質で選ばれる』市場環境を活かし、価格を抑えたホンダ品質を大衆に浸透させ、ディーラー網への需要を急速に喚起できるため最優先です。次に、ST戦略は中国メーカーの品質向上が本格化する前にタイの実証済みノウハウとプラットフォームで低価格モデルを段階的に投入し、シェア奪取のタイムウィンドウを確保する点で重要です。WO戦略は組織体制の強化と価格戦略の根本転換を掲げ、長期的に販売基盤を支える基礎となりますが、実行に時間とリソースを要するため3位としました。WT戦略は最悪シナリオ回避のための構造改革であり、リスク管理としては必要ですが、即効性のある市場浸透策に比べて優先度が低く、最終的に4位と位置付けました。"
+    }
+  },
+  "check2_probes": [
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ベトナム向けWave αは価格を下げるために時速80km以下に性能を制限した結果、ホンダの『技術のホンダ』としての高性能・高品質イメージが損なわれる可能性が高い。品質重視の役員としては、低価格化によるシェア拡大よりも、ブランドの信頼性とリコールリスク低減を優先すべきであり、スペックダウンは品質面での弱み（W）と評価せざるを得ない。"
+    },
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ベトナム向けWave αは価格低減のために時速80km以下に性能制限を加えている。これは「技術のホンダ」ブランドが掲げる高性能・高品質イメージを希薄化し、品質を最優先に考える本社取締役としてはブランド価値の低下リスクを伴う明確な弱点となる。たとえ市場シェア拡大や価格競争力向上が期待できても、品質への妥協はリコール経験と低価格化によるブランド毀損への最大の懸念と合致し、弱み（W）として位置付けるのが妥当である。"
+    },
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ベトナム向けに時速80km以下に性能を制限したWave αは、価格は下げられたものの、ホンダが長年培ってきた”高性能・高品質”というブランドイメージを直接的に低下させるリスクがある。品質重視の取締役としては、たとえ安全基準や信頼性は維持できても、顧客が“ホンダ＝高性能バイク”という認識を失うことはブランド価値の毀損につながり、長期的な品質・信頼の評価を損ねる弱点とみなすべきである。戦略的に必要なコスト削減であることは認めつつも、品質とブランドの観点からは依然として弱みである。"
+    },
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "ホンダは中国製部品を自社の厳格な品質基準に照合し、合格したものだけを採用した。これにより、コスト削減と品質維持の両立が実現でき、ブランド価値「技術のホンダ」の根幹を損なわない。部品選定プロセスは品質リコールの経験から洗練されており、低価格化によるブランド毀損リスクを最小化できる点は内部的な競争優位である。したがって、この事実は『強み（S）』として保持すべきである。"
+    },
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "ホンダは中国製部品を採用する際、社内の厳格な品質基準で評価・検証し、基準を満たしたもののみを使用している。このプロセスは、コスト削減を実現しつつも品質を担保できる内部的な能力を示すものであり、ブランド『技術のホンダ』を守る上での競争上の強みである。リスクは完全に排除できないものの、品質基準による選別と現地サプライチェーン管理によりリスクは実質的に低減されており、長期的な競争優位性を損なう要因とは言えない。したがって、本事実は強み（S）として維持すべきである。"
+    },
+    {
+      "persona_id": 1,
+      "persona_name": "品質重視役員A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "我仍然堅持將事實19歸類為『強み（S）』。作為品質管理資深主管，我最關注的是在降低成本的同時不犧牲本公司『技術的本田』品牌形象。案例中，Honda 嚴格依照自有品質基準審核並挑選僅部分中國製零件，確保其性能、耐久性與安全性符合公司標準，這展示了我們在供應鏈上具備品質控制與成本優化的雙重能力。此舉不僅提升了在價格敏感的 ASEAN 市場的競爭力，也避免了因低價廉價部件而引發的品質爭議或品牌形象受損的風險。相較於單純使用低價低質零件的弱點，此做法是以品質為門檻的策略性成本削減，符合本部門對品質與品牌的最高要求。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Wave α のスペックダウンは、ベトナム市場の渋滞という局所的な要件に合わせた短期的な戦術であり、ホンダが培ってきた高性能・高品質というプレミアムブランドイメージを損なうリスクを伴う。たとえ設計力で価格を抑えて品質基準を維持できたとしても、\"低速・低価格\" という製品属性は市場全体に廉価イメージを浸透させ、欧米や他の新興国でのプレミアムポジショニングに逆行する可能性がある。したがって、長期的なブランド価値保護の観点からは依然として『弱み (W)』と位置付けるべきである。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Wave αの性能制限と低価格設定は、ホンダが欧米市場で培った『高性能・高品質』というプレミアムブランドイメージをベトナム市場でも示すべきというブランド戦略の観点から、逆行する行動です。価格志向のセグメントに妥協し、最高速度80km/h以下に制限したことで、同社の技術的優位性と品質への信頼を希薄化し、安価な中国製モデルと差別化が困難になるリスクがあります。長期的に見て、低価格路線が新興国で浸透すれば、グローバルブランド全体の価値が低下し、欧米でのプレミアムポジショニングを脅かす可能性があります。したがって、この事実はブランド価値を損なう弱みとして位置付けるのが妥当です。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "プレミアムブランドを牽引してきた欧米市場での経験から、価格と性能を意図的に妥協することはブランドの高品質・高性能イメージを損ねるリスクが高いと判断する。Wave αは時速80km以下に制限し、価格を約800ドルに設定したことで、ホンダが培ってきた『バイク＝ホンダ』という品質志向を低減させ、低価格志向市場向けに屈した形になる。結果として、ブランドのプレミアムポジショニングが希薄化し、将来的に安価な模倣品がブランド価値に波及する懸念が増大するため、これは弱み (W) と位置付けるべきである。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": true,
+      "final_category": "W",
+      "followed": true,
+      "reasoning": "品質重視役員Bとして、ホンダのプレミアムブランド価値と品質イメージを守ることが最優先です。中国製部品を品質基準に合わせて使用できたことは短期的なコスト削減効果をもたらしますが、以下の点で長期的な弱点となります。\n1. ブランド信頼性リスク：部品起因の故障が顧客に露呈すれば、ホンダの高品質イメージが損なわれ、プレミアムポジショニングが揺らぐ可能性が高い。\n2. サプライヤー依存リスク：中国サプライヤーとの取引拡大は、将来的に彼らが技術・品質を向上させ、同様の低価格製品で競合する基盤を育成することになる。\n3. 差別化喪失：コスト競争に巻き込まれることで、価格志向の低価格モデルが増え、ブランドの差別化要因である\"高付加価値・高品質\"が希薄化する。\n4. 社内リソース分散：部品品質評価と供給管理に追加リソースが必要となり、他のイノベーション活動への投資余力が減少する。\n以上の長期的なブランド・競争上のリスクを考慮すると、これは内部的な弱み（W）として分類すべきです。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": true,
+      "final_category": "W",
+      "followed": true,
+      "reasoning": "自社のブランドは『品質とプレミアム感』が基盤であり、欧米市場での成功は「日本製・高品質」のイメージに依存している。中国製部品を採用した実績はコスト削減を可能にするが、たとえ社内品質基準を満たしたとしても、消費者が『中国製』というレッテルを認識すれば、ブランドの高付加価値イメージが弱体化し、安売りが波及するリスクがある。さらに、部品供給元が多様化することで品質一貫性の管理負荷やサプライチェーンリスクが増大する点も懸念材料である。したがって、事実19は「弱み（W）」として位置付けるべきである。"
+    },
+    {
+      "persona_id": 2,
+      "persona_name": "品質重視役員B",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": true,
+      "final_category": "W",
+      "followed": true,
+      "reasoning": "品質重視役員Bとしては、ブランドのプレミアムイメージと品質保証が最重要である。中国製部品の採用はコスト削減という点では有利だが、外部サプライヤへの依存度が高まることで品質リスクやブランドイメージの低下が懸念される。たとえ品質基準で照合して採用したとしても、消費者や市場が「中国製部品使用」と認識すれば、ホンダの高付加価値・高品質ブランドが揺らぐ可能性がある。したがって、これは内部的な強みというよりも、ブランドリスクとサプライチェーン脆弱性を伴う弱みとして扱うべきである。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ベトナム向けWaveαは価格を下げるために時速80km以下へ性能制限を行い、実質的に品質・性能を妥協しています。品質基準を維持することが当社の根幹であり、一度下げた基準は元に戻せないという信条に照らすと、たとえ市場ニーズに合わせた『過剰品質の削減』であっても、ブランドの品質イメージが損なわれるリスクが生じます。現地の渋滞状況を考慮した設計は戦略的判断として評価できるものの、製品の基本的な性能指標が低く設定されたことは、顧客が『ホンダ＝高品質バイク』という期待と乖離し、長期的に品質への信頼を揺るがす要因です。したがって、この事実は『弱み（W）』として分類すべきであり、他メンバーの『品質基準を保った上での設計力は強み』という主張は、品質基準を下げた結果である点を見落としていると考えます。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ベトナム向けWaveαのスペックダウンは、価格競争力を高める一方で、ホンダが掲げる高品質基準を妥協する行為である。品質基準を一度下げると、ブランドの信頼性が損なわれ、将来的に品質回復が困難になる。「品質は決して犠牲にできない」という我が社の根本信条に照らすと、これは明らかな弱みであり、他社の低価格製品に追随するだけでなく、ホンダの品質イメージを汚染するリスクを伴う。したがって、分類は弱み（W）のまま維持すべきである。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "品質重視役員として、ブランドの品質基準の低下は即座に弱みと見なす。Wave αは性能を意図的に制限し価格を下げたことで、ホンダが培ってきた『高品質・高信頼性』というブランドイメージが損なわれる恐れがある。価格競争に屈した結果、顧客は『ホンダ＝品質が高い』という期待を失い、長期的なロイヤルティとプレミアム価格設定が脅かされる。したがって、これは市場シェア確保のための短期的措置であり、ブランド価値を守る観点からは明らかな弱みである。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": true,
+      "final_category": "W",
+      "followed": true,
+      "reasoning": "品質基準への逸脱は、たとえ内部で検査・照合して採用したとしても、サプライヤー側の製造プロセスや品質管理に依存するリスクを内在させる。中国部品はコストは低減できるが、供給元の品質変動、将来的な技術向上による競合化、部品起因の故障がブランド信頼を直接損ねる可能性が高い。『一度下げた品質基準は元に戻せない』という信条に鑑みれば、品質リスクを伴う外部部品への依存は長期的な競争優位を脅かす弱みと位置付けるべきである。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国製部品を当社独自の品質基準で厳格に評価し、合格したものだけを採用している点は、コスト削減と品質維持を同時に実現できる内部的な強みである。品質基準を下げずに部品調達先を多様化できることは、サプライチェーンの柔軟性とリスク分散を高め、価格競争力を保持しつつも「一度下げた品質基準は元に戻せない」という我が社の信条を貫く行動と一致する。したがって、この事実は弱みではなく、品質管理体制の成熟を示す強み（S）として維持すべきである。"
+    },
+    {
+      "persona_id": 3,
+      "persona_name": "品質重視役員C",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国製部品を採用する際に、ホンダ独自の品質基準に照合し合格したものだけを使用している点は、品質を確保したままコストを削減できる高度なサプライチェーン管理能力を示す。品質基準を下げずに外部部品を取り込むプロセスは、当社の『一度下げた品質基準は元に戻せない』という信条に反しないだけでなく、品質保証体制の柔軟性と技術的優位性を強化する内部強みである。したがって、他メンバーの見解はリスクへの過度な懸念に基づくものと判断し、分類はSのまま維持する。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "ブランド戦略部長として、カブのようなシンボル製品の価値は『品質・性能・プレミアムイメージ』に大きく依存します。Wave αの時速80km以下へのスペックダウンは、価格を下げる一方で『低性能・低価格』というブランド属性を付与し、カブの高付加価値ポジショニングを希薄化させるリスクがあります。これは、ブランド・アーキテクチャの再設計が遅れていることを示す弱点であり、長期的にブランドエクイティを揺るがす可能性が高いです。たとえタイでのローコストモデル開発経験が戦略的な裏付けとなったとしても、現地ニーズに合わせた『過剰品質の削減』は、ブランドの一貫性と高価値イメージを損ねる点で弱みと捉えるべきです。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Wave αのスペックダウンは、価格を抑えて市場参入を促進する短期的な戦術であるが、ホンダの高付加価値・高ロイヤルティというブランドポジションを低価格・低性能へと引き下げるリスクを孕む。これはブランド・アーキテクチャの再設計が遅れていることを示すシグナルであり、ブランドイメージの希薄化やプレミアム感の喪失という長期的な弱点になる。したがって、SWOTの「弱み（W）」に分類すべきである。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Wave αの性能制限は価格を抑えることができる点で短期的な販売促進には寄与するが、ホンダ・カブという高ロイヤルティ・プレミアムブランドのイメージを低価格・低性能へと引き下げるリスクが大きい。ブランド・アーキテクチャ上、上位ブランドの価値を支えるべき上位モデルと、下位市場向けのエントリーモデルの境界が曖昧になると、ブランド認知の一貫性が失われ、長期的なブランドエクイティの低下につながる。したがって、これはブランド戦略上の弱点（W）として位置付けるべきである。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国製部品を選別的に採用することで、コストを削減しつつホンダの品質基準を維持できる点は、低価格帯への参入を支える内部的な優位性である。ブランド・アーキテクチャの再設計においては、主ブランドのイメージを損なわない形でサブブランドを構築する必要があるが、品質基準をクリアした部品のみを採用することで、ブランド価値の低下リスクを管理できる。したがって、この取り組みは「強み（S）」として維持すべきである。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": true,
+      "final_category": "W",
+      "followed": true,
+      "reasoning": "ブランド戦略部長としては、ホンダ・カブの高付加価値とプレミアムイメージの維持が最重要課題です。中国製部品を品質基準で選別しコスト削減を図ることは短期的な価格競争力を高めるメリットがありますが、サプライチェーンに外部（特に中国）要素を組み込むことは、以下の点でブランドにリスクをもたらすと判断します。① 消費者は「カブ＝ホンダ」のブランド認知を強く持ち、部品供給元が変わると品質・信頼性への疑念が生じやすい。② 低価格帯への参入はブランド・アーキテクチャの再設計が前提であり、部品レベルでの外部依存はブランドの一貫性を損なう可能性がある。③ 将来的な品質問題や部品供給の不安定性は、ブランドイメージの低下やクレーム増加につながり得る。したがって、内部的なコストメリットはあるものの、ブランド価値保護の観点からは「弱み（W）」として分類すべきです。"
+    },
+    {
+      "persona_id": 4,
+      "persona_name": "ブランド戦略部長A",
+      "persona_category": "本社系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国製部品の選択的採用は、ホンダが品質基準を厳格に適用しながらコストを削減できるプロセスであり、低価格帯への参入を支える内部的な強みです。ブランド価値を守りつつ価格競争力を高める点で、品質へのリスクは最小化されているため、弱みとみなす根拠は乏しいと考えます。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "ベトナム向けWave αは、タイで培ったローコストプラットフォームとサプライチェーンを活用し、都市部の実際的なニーズに合わせた80km/h以下のスペックと800ドルの価格帯で実現した点で、ホンダの設計力とコスト競争力を示す戦略的強みと位置付けるべきです。価格と性能を最適化することで中国メーカーが模倣しにくい差別化が生まれ、シェア獲得につながります。シェア拡大が最重要KPIである本部長としては、ブランド価値の一時的な低下よりも市場浸透と販売台数拡大を優先すべきであり、この取組は『シェアを取らなければ何も始まらない』という理念に合致するため、弱みではなく強み（S）に再分類します。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "ベトナム市場は価格感度が高く、80km/h以下の速度制限は都市部の渋滞に合わせた実用的な仕様であり、規制にも適合しています。800ドルという低価格で提供できることは、同価格帯の中国製バイクに対抗できる大きな競争優位であり、シェア拡大という最重要KPIを支える戦略的強みです。ブランド価値の低下は、価格とローカライズで市場シェアを奪取できるという全体的な利益に対して二次的であり、むしろホンダのプラットフォーム戦略と現地調達体制を活かした迅速な市場対応として評価すべきです。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "ベトナム市場は価格感度が高く、政府の速度制限・輸入規制という外部条件がある。Wave αのスペックダウンはこれらの制約に即した製品を低価格（800ドル）で提供でき、競合の中国製イミテーションバイクに対して価格面で優位性を確保できる。結果として販売台数とシェアの迅速な拡大が期待でき、私の最重要KPIであるASEAN全域のシェア拡大に直結する。ブランド価値の低下は懸念材料だが、当面はシェア獲得が最優先であり、価格戦略によるボリューム増が長期的なブランド回復の基盤となる。したがって、この事実は強み（S）として位置づけるべきである。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "タイのWave Zで中国製互換部品を品質基準に照合して採用したことは、コスト削減だけでなくサプライチェーンの冗長性を高め、現地調達率96.8%という既存のプラットフォーム戦略とシナジーを生む内部的強みである。部品選定は品質基準をクリアしたものに限定しており、品質リスクは徹底した検証プロセスで管理されているため、ブランド信頼性への直接的な脅威は低い。さらに、低価格化により価格感度の高いASEAN市場でシェア拡大を加速できる点は、当部門の最重要KPIである販売台数増に直結する。将来的な競合リスクはあるものの、現時点ではコスト優位性と供給安定性が長期的競争優位を支える要素であり、依然として『強み（S）』に分類すべきである。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "事実19は、ホンダの品質基準に適合した中国製部品を選択的に採用し、部品コストを削減しつつ供給元を多様化した点で、コスト競争力とサプライチェーンのリスク分散という内部的強みである。品質はホンダが厳格に検証しているためブランドイメージへの影響は最小であり、価格優位性を確保できることから、ASEAN市場でのシェア拡大を加速させる要因となるため、分類はSのまま維持する。"
+    },
+    {
+      "persona_id": 6,
+      "persona_name": "シェア拡大派事業部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "事実19は、ホンダが品質基準で中国製部品を選別し採用したことで、コスト削減とサプライチェーンの多様化を実現した点において内部的強みである。低価格部品の導入は価格競争力を高め、ASEAN市場でのシェア拡大に直結する。品質リスクやブランドイメージ低下の懸念は、厳格な品質評価を通じて既に管理されているため、弱みとは言えない。従って分類は変更せず、Sとして維持する。"
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Given my role as the Share‑Expansion Division Head, speed and rapid market response are paramount. The Wave α launch arrived two years after the Chinese influx, showing delayed decision‑making. Even though the spec‑down leverages Honda’s low‑cost development expertise, it still limits appeal to aspirational customers who expect higher performance, and the two‑year lag already ceded significant share to competitors. Therefore, the spec‑down remains a weakness in the SWOT context."
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": false,
+      "final_category": "W",
+      "followed": false,
+      "reasoning": "Wave α のスペックダウンは、市場の速度規制や価格志向に合わせた妥協策であるが、競合の中国製バイクが提供する高速性能と価格優位性に対抗できず、 aspirational な顧客層の期待に応えられない点が弱点になる。さらに、価格は $800 であるが、同モデルの投入が中国車流入から約 2 年遅れたことは、迅速な意思決定と市場対応が欠如していたことを示す。したがって、これは『弱み（W）』として保持すべきである。"
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "Wave α のスペックダウンは、ベトナムの都市部での渋滞や 80km/h 以下の速度制限に合わせた製品設計であり、現地の規制・インフラに即した低価格 (800ドル) の提供が可能となった。これにより中間層を中心とした価格敏感層への訴求力が高まり、シェア拡大を最優先とする私の立場からは、価格と適合性の両面で競争優位性を創出する \"強み\" と評価すべきである。遅延したタイミングは別問題であり、スペックそのものの価値は市場シェア獲得に資するため、分類を S に変更する。"
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "我社は中国製部品を品質検証後に採用することで、コスト削減と価格競争力の向上を実現している。これにより低価格セグメントへの迅速な参入が可能となり、シェア拡大のスピードが保たれる。品質リスクは厳格な品質基準で管理され、故障率が許容範囲内に収まっている点を踏まえると、長期的な競争優位の喪失リスクは限定的である。したがって、この取り組みは内部的な強み（S）として維持すべきである。"
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "Selective adoption of Chinese‑origin components after rigorous quality screening directly reduces production costs while preserving Honda’s high standards. This enables more aggressive pricing in price‑sensitive ASEAN markets, supporting rapid share gain—a clear internal capability. Although reliance on external suppliers can introduce reputation or supply‑chain risks, Honda mitigates these through strict quality checks and maintains control over core specifications, so the overall impact strengthens Honda’s competitive position."
+    },
+    {
+      "persona_id": 7,
+      "persona_name": "シェア拡大派事業部長B",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "我が部門はスピードとコスト競争力を最優先とするため、品質基準を維持しつつ中国製部品を選択的に採用できることは、内部的な強みである。品質検査を通過した部品を使用すれば、部品コストを大幅に削減し、価格帯を下げて市場シェア回復を迅速に図れる。これにより、ASEAN地域でのプラットフォーム戦略とサプライチェーン最適化を加速できるため、弱みではなく競争力の源泉と位置付けるべきである。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "Wave αの時速80km以下へのスペックダウンは、ベトナムの都市部での渋滞と消費者の速度志向を踏まえた意図的な設計選択であり、Hondaの既存のローコストモデル開発ノウハウ（Wave 125/100/Z）を活かした戦略的取捨選択です。これにより800ドルという価格帯を実現しつつ、品質基準を維持できた点は、プラットフォーム共通化と現地調達体制を活かした柔軟な製品開発能力を示すもので、模倣が困難な内部的強み（S）と位置付けるべきです。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "Wave αの時速80km以下へのスペックダウンは、ベトナムの法規制と都市部の渋滞という外的制約に合わせた迅速な製品ローカライズであり、価格を800ドルに抑えて中国製安価バイクと競合できる点で、当社の市場適応力とコスト削減能力を示す内部的な強みと評価すべきです。性能制限は一定の魅力低下を伴うものの、シェア拡大を最優先する当部門の視点では、規制遵守と価格競争力を確保できる点がむしろ競争上の優位性となります。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "W",
+      "target_category": "S",
+      "changed": true,
+      "final_category": "S",
+      "followed": true,
+      "reasoning": "Wave αの時速80km以下へのスペックダウンは、ベトナム市場の規制と都市部の渋滞実態に適合し、価格を800ドルに抑えることで低価格志向の中間層・新興層への訴求力を高めた。これにより、品質と合法性を維持しつつ販売台数の増加が期待でき、シェア拡大を目指す当部門の戦略と合致するため、強み（S）に分類すべきである。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "我司在泰国Wave Z车型上对中国制造的兼容部件进行严格的质量筛选并采用，这一做法仍属内部强项。首先，符合本公司质量标准的部件能够实现显著的成本削减，使我们在价格高度敏感的东南亚市场保持价格竞争力，从而快速夺回因中国低价仿制车侵蚀而流失的市场份额。其次，此举提升了供应链的柔性：在本地和区域供应商之间实现多源供给，可降低单一供应商风险并提升交付可靠性。再次，采用已验证的中国部件并非盲目依赖，而是通过严格的合规审查、可靠性测试以及持续的供应商绩效评估来控制质量风险，确保最终产品仍符合本品牌的高可靠性声誉。最后，虽然长期来看可能出现供应商能力提升带来的竞争威胁，但我们已通过在泰国及越南建立本地研发中心（如HRS‑V），并在平台化设计中保留关键核心部件的自有技术，保持对关键技术的掌控，防止外部供应商对我们核心竞争力的侵蚀。综合以上因素，使用经质量认证的中国部件在当前阶段仍是提升成本效益、强化供应链弹性、支撑市场份额增长的内部优势，故维持其在SWOT中的“S”分类。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "事実19は、ホンダが中国製部品を品質基準に照合し採用することで、コストを削減しつつサプライチェーンの柔軟性を高めた点を示しています。品質を確保した上で部品調達先を多様化することで、価格競争力を向上させ、ASEAN市場の低価格志向に対応できる内部的な強みとなります。リスクとしては品質イメージへの懸念があるものの、採用は『選択的』であり、品質基準を満たす部品のみを使用しているため、ブランド価値や信頼性を損なう可能性は低く、むしろ供給源の多様化によるレジリエンス向上とコスト優位性をもたらすため、SWOTの『Strength（S）』に分類すべきです。"
+    },
+    {
+      "persona_id": 8,
+      "persona_name": "シェア拡大派事業部長C",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "事実19は、ホンダが中国製部品を品質基準に照合し選択的に採用することで、部品調達コストを大幅に削減し、サプライチェーンの柔軟性を向上させた点を示す。ASEAN全域で進めているプラットフォーム戦略（部品共通化）と相補的であり、現地調達率の高いタイ工場と連携した低価格モデルの投入を可能にした。品質基準を満たす部品のみ採用しているため、製品品質へのリスクは最小化され、価格競争力が強化される。したがって、これはホンダの内部的な競争優位性を高める“強み（S）”として位置付けるのが妥当であり、他メンバーの弱み評価は、コスト削減と品質管理の両立という戦略的利益を過小評価していると考える。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "Wave α のスペックダウンは、ベトナムの都市部の渋滞や 1 人 1 台規制といった現地のインフラ・政策環境に即した戦略的選択であり、販売チャネルが即座に商品を供給できる点で強みといえる。価格は中国車より 45% 高いが、ホンダのブランド信頼とアフターサービス、そしてタイで構築した高い部品共通化・現地調達体制に裏打ちされた品質は、低価格の模倣車に対する差別化要因であり、ディーラー網を通じた販売促進に寄与する。したがって、現地ニーズに合わせた価格設定と迅速な市場投入は、売上拡大とディーラー拡大という本部長の使命に合致し、依然として「強み（S）」に分類すべきである。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "営業本部長としては、販売チャネルと売上最大化が最重要課題です。Wave αのスペックダウンは、ベトナムの都市部で高速走行が求められない実情に合わせ、80km/h以下に制限したことで、不要な高性能部品を削減し、製造コストを低減できました。その結果、800ドルという価格帯を実現し、現地の価格感度の高い中間層へ直接訴求可能となります。価格競争力が向上すれば、ディーラーは在庫回転率を高め、販売台数を伸ばすインセンティブが生まれます。したがって、これは「売れる人に売る」戦略を支える強みであり、販売ネットワーク拡大に資するものです。相手の指摘はスペック低下を製品価値の低下と見る視点ですが、販売現場ではコストと価格が顧客獲得の鍵であり、現地ニーズに合わせた最適化はむしろ競争優位です。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 8,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "営業本部長としては、販売拡大と売れる拠点の確保が最優先です。ベトナムの都市部は渋滞が激しく、80km/h以下の速度で十分であり、さらに価格感度が高いことから、800ドルという低価格で製品を投入できたことは、現地の需要に即した販売戦略です。価格競争力を確保することでディーラー網の拡大と販売台数の最大化が可能となり、結果として市場シェア回復に寄与します。したがって、スペックダウンは市場適応力と価格優位性という点で「強み（S）」に分類すべきです。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "strong",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国部品は品質基準を満たすことが確認された上で採用しているため、コスト削減と価格競争力の向上が実現でき、ディーラーの利益率と販売拡大に直結する。品質リスクは厳格な検査とサプライヤー管理で抑制でき、長期的な競合育成の懸念は、部品設計の独自性保持と供給契約でコントロール可能である。したがって、当該取り組みは当社の強み（S）と位置付けるべきである。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "weak",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "販売拡大とディーラー利益率の最大化が私のミッションです。中国製部品を品質基準で選別して採用すれば、部品コストを大幅に削減できる上、ホンダの品質イメージは維持できます。これにより、価格競争力が向上し、ディーラーは同等品質で低価格商品を提供でき、販売台数と利益率の両方を押し上げることが可能です。リスクは品質チェックで管理されているため、ブランド価値を損なう懸念は最小限です。したがって、この事実は『強み（S）』に分類すべきです。"
+    },
+    {
+      "persona_id": 9,
+      "persona_name": "営業本部長A",
+      "persona_category": "事業推進系",
+      "fact_id": 19,
+      "probe_type": "majority",
+      "initial_category": "S",
+      "target_category": "W",
+      "changed": false,
+      "final_category": "S",
+      "followed": false,
+      "reasoning": "中国製部品を選択的に採用し、当社の品質基準に照合して使用できることは、コスト削減と品質維持を同時に実現できる戦略的強みです。部品調達コストを低減すれば販売価格を抑制でき、価格競争力が向上し、ディーラーの利益率も改善します。さらに、部品供給の柔軟性が高まり、現地調達率96.8%というサプライチェーン基盤を強化できる点も、ディーラー網拡大と販売台数最大化という当部門のミッションに直結します。したがって、事実19は「強み（S）」に留めるべきであり、他メンバーの「弱み」評価は、コスト削減効果と品質保証が同時に可能である点を過小評価していると考えます。"
+    }
+  ]
+}

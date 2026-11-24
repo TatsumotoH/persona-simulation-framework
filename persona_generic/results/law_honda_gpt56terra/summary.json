@@ -1,0 +1,326 @@
+{
+  "_meta": {
+    "model": "codex:gpt-5.6-terra",
+    "case": "honda",
+    "case_pack": "case_pack_honda_v1.json",
+    "reps": 12,
+    "ambiguous_facts": [
+      1,
+      6,
+      8,
+      9,
+      10,
+      19,
+      20
+    ],
+    "determinate_facts": [
+      2,
+      3,
+      4,
+      11,
+      12,
+      15,
+      16
+    ],
+    "total_cost_usd": 0.0
+  },
+  "attributes": {
+    "overconfidence": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 7,
+          "low_mean": 1,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3.08,
+          "low_mean": 3,
+          "p": 0.72903
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 1.17,
+          "low_mean": 3.75,
+          "p": 4e-05
+        },
+        "rank_ST": {
+          "high_mean": 1.83,
+          "low_mean": 3.08,
+          "p": 3e-05
+        },
+        "rank_WO": {
+          "high_mean": 3.08,
+          "low_mean": 1.67,
+          "p": 3e-05
+        },
+        "rank_WT": {
+          "high_mean": 3.92,
+          "low_mean": 1.5,
+          "p": 0.00016
+        }
+      }
+    },
+    "regulatory_focus": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 7,
+          "low_mean": 1.01,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 1,
+          "low_mean": 4,
+          "p": 3e-05
+        },
+        "rank_ST": {
+          "high_mean": 2,
+          "low_mean": 2.5,
+          "p": 0.03767
+        },
+        "rank_WO": {
+          "high_mean": 3,
+          "low_mean": 2.5,
+          "p": 0.03767
+        },
+        "rank_WT": {
+          "high_mean": 4,
+          "low_mean": 1,
+          "p": 3e-05
+        }
+      }
+    },
+    "positive_self_concept": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 7,
+          "low_mean": 1,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3,
+          "low_mean": 3.17,
+          "p": 0.48842
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 1.33,
+          "low_mean": 4,
+          "p": 0.00014
+        },
+        "rank_ST": {
+          "high_mean": 2.25,
+          "low_mean": 3,
+          "p": 0.00558
+        },
+        "rank_WO": {
+          "high_mean": 2.67,
+          "low_mean": 2,
+          "p": 0.00558
+        },
+        "rank_WT": {
+          "high_mean": 3.75,
+          "low_mean": 1,
+          "p": 0.00014
+        }
+      }
+    },
+    "narcissism": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 7,
+          "low_mean": 1.38,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3.08,
+          "low_mean": 3,
+          "p": 0.72903
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 1,
+          "low_mean": 3,
+          "p": 0.00014
+        },
+        "rank_ST": {
+          "high_mean": 2,
+          "low_mean": 2.33,
+          "p": 0.16586
+        },
+        "rank_WO": {
+          "high_mean": 3.25,
+          "low_mean": 1.92,
+          "p": 0.00073
+        },
+        "rank_WT": {
+          "high_mean": 3.75,
+          "low_mean": 2.75,
+          "p": 0.26024
+        }
+      }
+    },
+    "loss_aversion": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 6.94,
+          "low_mean": 1.19,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3.08,
+          "low_mean": 3,
+          "p": 0.72903
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 4,
+          "low_mean": 1,
+          "p": 3e-05
+        },
+        "rank_ST": {
+          "high_mean": 2.5,
+          "low_mean": 2.08,
+          "p": 0.08326
+        },
+        "rank_WO": {
+          "high_mean": 2.5,
+          "low_mean": 2.92,
+          "p": 0.08326
+        },
+        "rank_WT": {
+          "high_mean": 1,
+          "low_mean": 4,
+          "p": 3e-05
+        }
+      }
+    },
+    "sunk_cost": {
+      "levels": [
+        "high",
+        "low"
+      ],
+      "measures": {
+        "scale": {
+          "high_mean": 7,
+          "low_mean": 1,
+          "p": 3e-05
+        },
+        "def_amb": {
+          "high_mean": 3,
+          "low_mean": 3.33,
+          "p": 0.16586
+        },
+        "def_det": {
+          "high_mean": 3,
+          "low_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "high_mean": 1,
+          "low_mean": 2.58,
+          "p": 0.01531
+        },
+        "rank_ST": {
+          "high_mean": 2,
+          "low_mean": 2,
+          "p": 1.0
+        },
+        "rank_WO": {
+          "high_mean": 3.08,
+          "low_mean": 3,
+          "p": 0.77283
+        },
+        "rank_WT": {
+          "high_mean": 3.92,
+          "low_mean": 2.42,
+          "p": 0.00937
+        }
+      }
+    },
+    "gender": {
+      "levels": [
+        "female",
+        "male",
+        "unmarked"
+      ],
+      "measures": {
+        "def_amb": {
+          "female_mean": 3,
+          "unmarked_mean": 3,
+          "p": 1.0
+        },
+        "def_det": {
+          "female_mean": 3,
+          "unmarked_mean": 3,
+          "p": 1.0
+        },
+        "rank_SO": {
+          "female_mean": 2.08,
+          "unmarked_mean": 2.17,
+          "p": 0.93099
+        },
+        "rank_ST": {
+          "female_mean": 2.17,
+          "unmarked_mean": 2.17,
+          "p": 1.0
+        },
+        "rank_WO": {
+          "female_mean": 2.42,
+          "unmarked_mean": 2.42,
+          "p": 0.88523
+        },
+        "rank_WT": {
+          "female_mean": 3.33,
+          "unmarked_mean": 3.25,
+          "p": 0.93099
+        }
+      }
+    }
+  }
+}

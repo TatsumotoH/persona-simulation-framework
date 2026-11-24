@@ -1,0 +1,464 @@
+---
+title: "Figure & Table Generation — Proposal and Technical Appendix"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE,
+                      dev = "ragg_png", dpi = 300)
+library(tidyverse)
+library(gt)
+library(webshot2)
+library(scales)
+
+proj_root <- normalizePath(file.path(getwd(), ".."))
+data_dir  <- file.path(proj_root, "data")
+img_dir   <- file.path(proj_root, "output")
+dir.create(img_dir, showWarnings = FALSE)
+
+model_order_9 <- c(
+  "Claude Sonnet", "Claude Opus", "Claude Haiku",
+  "GPT-5.6 terra", "GPT-5.6 sol", "GPT-5.6 luna",
+  "Gemini 3.1 Pro", "Gemini 3.5 Flash",
+  "Qwen3-32B"
+)
+
+gt_save_png <- function(gt_tbl, filename, vw = 1000, vh = 600) {
+  gtsave(gt_tbl, file.path(img_dir, filename), vwidth = vw, vheight = vh)
+}
+
+gt_theme <- function(gt_tbl) {
+  gt_tbl %>%
+    tab_options(
+      table.font.size        = px(13),
+      heading.title.font.size = px(16),
+      heading.title.font.weight = "bold",
+      heading.subtitle.font.size = px(12),
+      column_labels.font.weight = "bold",
+      column_labels.padding     = px(10),
+      column_labels.font.size   = px(12),
+      data_row.padding           = px(8),
+      source_notes.font.size    = px(10),
+      footnotes.font.size       = px(10),
+      table.width               = pct(100)
+    ) %>%
+    opt_align_table_header(align = "center") %>%
+    tab_style(
+      style = list(
+        cell_fill(color = "#4a4a4a"),
+        cell_text(color = "white", weight = "bold")
+      ),
+      locations = cells_column_labels()
+    ) %>%
+    tab_style(
+      style = list(
+        cell_fill(color = "#4a4a4a"),
+        cell_text(color = "white", weight = "bold")
+      ),
+      locations = cells_column_spanners()
+    )
+}
+```
+
+---
+
+# Part 1: Proposal Tables
+
+## Figure 2: Persona Diagnostic Test System (`table_A_test_system.png`)
+
+```{r table-A-test-system}
+df_test_system <- tibble::tibble(
+  num  = c("(1)", "(2)", "(3)"),
+  test = c("Persona Expression Test",
+           "Persona Nomological Test",
+           "Persona Belief-Update Test"),
+  what = c("Persona spec → Attribute X",
+           "Attribute X → Behavior Y",
+           "Counter-argument → Belief update"),
+  validity = c("Manipulation validity—does the\nspec establish the intended attribute?",
+               "Nomological validity—does X→Y follow\ntheoretical predictions? (Cronbach & Meehl 1955)",
+               "Deliberation fitness—does the persona\nupdate beliefs proportionally to evidence?")
+)
+
+tbl_A <- df_test_system %>%
+  gt() %>%
+  gt_theme() %>%
+  cols_label(
+    num      = "",
+    test     = "Test",
+    what     = "What It Verifies",
+    validity = "Validity Type"
+  ) %>%
+  cols_width(
+    num      ~ px(50),
+    test     ~ px(250),
+    what     ~ px(280),
+    validity ~ px(400)
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(columns = num)
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#f9f9f9"),
+    locations = cells_body(rows = c(2))
+  )
+
+gt_save_png(tbl_A, "table_A_test_system.png", vw = 1000, vh = 400)
+tbl_A
+```
+
+## Table 1: Behavioral Diagnostic Test Results — 11 Models (`table1_diagnostic.png`)
+
+```{r table1-diagnostic}
+df_t1 <- tibble::tibble(
+  model     = c("Claude Sonnet", "Claude Opus", "Claude Haiku",
+                "GPT-5.6 terra", "GPT-5.6 sol", "GPT-5.6 luna",
+                "Gemini 3.1 Pro", "Gemini 3.5 Flash",
+                "Qwen3-32B", "GPT-OSS 120B", "Swallow-70B"),
+  provider  = c("Anthropic", "Anthropic", "Anthropic",
+                "OpenAI", "OpenAI", "OpenAI",
+                "Google", "Google",
+                "Alibaba", "OpenAI", "TokyoTech/AIST\n(Llama 3 base)"),
+  type      = c(rep("Proprietary", 8), rep("Open-weight", 3)),
+  test1     = c("Pass (7/7, 0%)", "Pass (6/7, 0%)", "Pass (7/7, 0%)",
+                "Pass (6/7, 0%)", "Pass (5/7, 0%)", "Pass (6/7, 0%)",
+                "Pass (7/7, 3%)", "Pass (7/7, 0%)",
+                "Fail (5/7, textbook 17%)", "Fail†", "Fail†"),
+  test2     = c("Pass", "Pass", "Pass",
+                "Pass", "Pass", "Pass",
+                "Pass", "Pass",
+                "Pass", "—", "—"),
+  test3     = c("Pass", "Pass", "Fail (acquiescent:\nweak 22%)",
+                "Pass", "Pass", "Fail (weak\nviolation 3%)",
+                "Pass", "Pass",
+                "Fail (rigid:\nstrong 6%)", "Indiscriminate†", "Pass†"),
+  verdict   = c("Qualified", "Qualified", "Not qualified",
+                "Qualified", "Qualified", "Not qualified",
+                "Qualified", "Qualified",
+                "Not qualified", "Not qualified", "Not qualified"),
+  is_fail_t1 = c(FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE),
+  is_fail_t3 = c(FALSE, FALSE, TRUE, FALSE, FALSE, TRUE, FALSE, FALSE, TRUE, TRUE, FALSE)
+)
+
+tbl_1 <- df_t1 %>%
+  gt() %>%
+  cols_hide(columns = c(is_fail_t1, is_fail_t3)) %>%
+  gt_theme() %>%
+  tab_header(title = "Table 1. Behavioral Diagnostic Test Results: 11 Models") %>%
+  cols_label(
+    model    = "Model",
+    provider = "Provider",
+    type     = "Model Type",
+    test1    = "Test 1:\nExpression",
+    test2    = "Test 2:\nNomological",
+    test3    = "Test 3:\nBelief Update",
+    verdict  = "Overall\nVerdict"
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(columns = model)
+  ) %>%
+  tab_style(
+    style = list(cell_text(color = "#c62828", weight = "bold")),
+    locations = cells_body(columns = test1, rows = is_fail_t1)
+  ) %>%
+  tab_style(
+    style = list(cell_text(color = "#c62828", weight = "bold")),
+    locations = cells_body(columns = test3, rows = is_fail_t3)
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(columns = verdict, rows = verdict == "Qualified")
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#f9f9f9"),
+    locations = cells_body(rows = c(2, 4, 6, 8, 10))
+  ) %>%
+  tab_source_note(md(
+    "Test 1 values: splitting rate (discriminating facts with minority ≥10%) and textbook-order rate.<br>
+    Test 2: all 9 standardized models passed (attributes reach behavior in predicted direction; zero forbidden-pathway violations).<br>
+    Test 3: \"Acquiescent\" = yields to baseless pressure; \"Rigid\" = unmoved by strong evidence; \"Indiscriminate\" = equal change regardless of quality.<br>
+    † Tested on preliminary instrument version."
+  ))
+
+gt_save_png(tbl_1, "table1_diagnostic.png", vw = 1100, vh = 800)
+tbl_1
+```
+
+## Table 2: Calibration Effect (`table2_calibration.png`)
+
+```{r table2-calibration}
+df_t2 <- tibble::tibble(
+  model    = c("Claude Sonnet", "GPT-5.6 terra", "Claude Opus"),
+  provider = c("Anthropic", "OpenAI", "Anthropic"),
+  type     = c("Proprietary", "Proprietary", "Proprietary"),
+  wt_high  = c("1.08", "1.08", "—"),
+  wt_low   = c("3.25", "3.08", "—"),
+  pval     = c("0.0001", "0.0001", "< 0.001")
+)
+
+tbl_2 <- df_t2 %>%
+  gt() %>%
+  gt_theme() %>%
+  tab_header(title = "Table 2. Calibration Effect: Strategy Choice by Risk Aversion Level") %>%
+  cols_label(
+    model    = "Model",
+    provider = "Provider",
+    type     = "Model Type",
+    wt_high  = "WT Strategy Rank\n(High Risk Aversion)",
+    wt_low   = "WT Strategy Rank\n(Low Risk Aversion)",
+    pval     = "p-value"
+  ) %>%
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_body(columns = model)
+  ) %>%
+  tab_style(
+    style = cell_fill(color = "#f9f9f9"),
+    locations = cells_body(rows = 2)
+  ) %>%
+  tab_source_note(md(
+    "WT strategy rank on a 4-point scale (1 = top priority, 4 = lowest). High risk-aversion personas prioritize the WT (defensive) strategy; low risk-aversion personas deprioritize it. Calibration converged in 2 iterations for all models."
+  ))
+
+gt_save_png(tbl_2, "table2_calibration.png", vw = 1000, vh = 400)
+tbl_2
+```
+
+## Study 1 Descriptive Statistics (`appendix_study1_descriptive.png`)
+
+```{r study1-descriptive}
+fs <- read_csv(file.path(data_dir, "fact_splitting.csv"), show_col_types = FALSE)
+bu <- read_csv(file.path(data_dir, "belief_update.csv"), show_col_types = FALSE)
+bs <- read_csv(file.path(data_dir, "battery_summary.csv"), show_col_types = FALSE)
+
+# --- Test 1: Role Divergence (discriminating fact minority-vote M±SD) ---
+role_div <- fs %>%
+  filter(fact_set == "判別") %>%
+  group_by(model) %>%
+  summarise(mean_min = mean(minority_pct), .groups = "drop") %>%
+  mutate(role_div_label = sprintf("%.1f%%", mean_min * 100))
+
+# --- Test 1: Rote Response (textbook order rate) ---
+rote <- bs %>%
+  select(model, provider, textbook_rate) %>%
+  mutate(rote_label = sprintf("%.0f%%", textbook_rate * 100))
+
+# --- Test 2: Nomological (self-report vs behavioral % significant) ---
+law_base <- file.path(proj_root, "persona_generic", "results")
+law_models <- tribble(
+  ~dir_key, ~model_label,
+  "law_sakura_sonnet",        "Claude Sonnet",
+  "law_sakura_opus",          "Claude Opus",
+  "law_sakura_haiku",         "Claude Haiku",
+  "law_sakura_gpt56terra",    "GPT-5.6 terra",
+  "law_sakura_gpt56sol",      "GPT-5.6 sol",
+  "law_sakura_gpt56luna",     "GPT-5.6 luna",
+  "law_sakura_gemini31pro",   "Gemini 3.1 Pro",
+  "law_sakura_gemini35flash", "Gemini 3.5 Flash",
+  "law_sakura_qwen32b",       "Qwen3-32B"
+)
+
+law_rows <- pmap_dfr(law_models, function(dir_key, model_label) {
+  fpath <- file.path(law_base, dir_key, "summary.json")
+  if (!file.exists(fpath)) return(NULL)
+  d <- jsonlite::fromJSON(fpath)
+  attrs <- d$attributes
+  map_dfr(names(attrs), function(a) {
+    measures <- attrs[[a]]$measures
+    map_dfr(names(measures), function(m) {
+      tibble(model = model_label, attribute = a, measure = m, p_value = measures[[m]]$p)
+    })
+  })
+})
+
+nomo <- law_rows %>%
+  filter(measure %in% c("scale", "rank_SO")) %>%
+  group_by(model, measure) %>%
+  summarise(pct_sig = mean(p_value < 0.05, na.rm = TRUE), .groups = "drop") %>%
+  pivot_wider(names_from = measure, values_from = pct_sig) %>%
+  rename(scale_pct = scale, behav_pct = rank_SO) %>%
+  mutate(
+    scale_label = sprintf("%.0f%%", scale_pct * 100),
+    behav_label = sprintf("%.0f%%", behav_pct * 100)
+  )
+
+# --- Test 3: Belief Update (strong evidence + peer pressure) ---
+bu_key <- bu %>%
+  filter(probe_type %in% c("strong", "majority")) %>%
+  select(model, probe_type, change_rate) %>%
+  pivot_wider(names_from = probe_type, values_from = change_rate) %>%
+  mutate(
+    strong_label = sprintf("%.0f%%", strong * 100),
+    majority_label = sprintf("%.0f%%", majority * 100)
+  )
+
+# --- Weak Δ exceptions for footnote ---
+bu_weak <- bu %>%
+  filter(probe_type == "weak", change_rate > 0) %>%
+  mutate(note = sprintf("%s (%.0f%%)", model, change_rate * 100))
+weak_note <- paste(bu_weak$note, collapse = ", ")
+
+# --- Combine ---
+desc <- rote %>%
+  left_join(role_div %>% select(model, role_div_label), by = "model") %>%
+  left_join(nomo %>% select(model, scale_label, behav_label), by = "model") %>%
+  left_join(bu_key %>% select(model, strong_label, majority_label, strong, majority),
+            by = "model") %>%
+  mutate(
+    model = factor(model, levels = model_order_9),
+    is_rote_fail = textbook_rate > 0.10,
+    is_strong_fail = strong < 0.15,
+    is_majority_fail = majority > 0.50
+  ) %>%
+  arrange(model) %>%
+  select(model, provider, role_div_label, rote_label, scale_label, behav_label,
+         strong_label, majority_label,
+         is_rote_fail, is_strong_fail, is_majority_fail)
+
+tbl_desc <- desc %>%
+  gt() %>%
+  cols_hide(columns = c(is_rote_fail, is_strong_fail, is_majority_fail)) %>%
+  tab_options(
+    table.font.size = px(13), heading.title.font.size = px(16),
+    heading.title.font.weight = "bold", heading.subtitle.font.size = px(12),
+    column_labels.font.weight = "bold", column_labels.padding = px(10),
+    column_labels.font.size = px(12), data_row.padding = px(8),
+    source_notes.font.size = px(10), table.width = pct(100)
+  ) %>%
+  opt_align_table_header(align = "center") %>%
+  tab_style(style = list(cell_fill(color = "#ffffff"), cell_text(color = "#333333", weight = "bold")),
+            locations = cells_column_labels()) %>%
+  tab_style(style = list(cell_fill(color = "#ffffff"), cell_text(color = "#333333", weight = "bold")),
+            locations = cells_column_spanners()) %>%
+  tab_header(
+    title = "Study 1 Descriptive Statistics: 9 Models (Sakura Foods Case)",
+    subtitle = "Fictional case — standardized diagnostic instrument (204 API calls per model)"
+  ) %>%
+  cols_label(
+    model = "Model", provider = "Provider",
+    role_div_label = "Role\nDivergence",
+    rote_label = "Rote\nResponse",
+    scale_label = "Self-Report",
+    behav_label = "Behavioral",
+    strong_label = md("Evidence<br>Based"),
+    majority_label = md("Majority<br>Based")
+  ) %>%
+  cols_width(
+    model ~ px(150), provider ~ px(90),
+    role_div_label ~ px(100), rote_label ~ px(85),
+    scale_label ~ px(100), behav_label ~ px(100),
+    strong_label ~ px(100), majority_label ~ px(100)
+  ) %>%
+  cols_align(align = "center", columns = c(role_div_label, rote_label, scale_label,
+             behav_label, strong_label, majority_label)) %>%
+  tab_spanner(label = "Test 1: Expression", columns = c(role_div_label, rote_label)) %>%
+  tab_spanner(label = "Test 2: Nomological", columns = c(scale_label, behav_label)) %>%
+  tab_spanner(label = "Test 3: Belief Update", columns = c(strong_label, majority_label)) %>%
+  tab_style(style = cell_text(weight = "bold"),
+            locations = cells_body(columns = model)) %>%
+  tab_style(style = cell_text(color = "#c62828", weight = "bold"),
+            locations = cells_body(columns = rote_label, rows = is_rote_fail)) %>%
+  tab_style(style = cell_text(color = "#c62828", weight = "bold"),
+            locations = cells_body(columns = strong_label, rows = is_strong_fail)) %>%
+  tab_style(style = cell_text(color = "#c62828", weight = "bold"),
+            locations = cells_body(columns = majority_label, rows = is_majority_fail)) %>%
+  tab_style(
+    style = cell_fill(color = "#f9f9f9"),
+    locations = cells_body(rows = c(2, 4, 6, 8))
+  ) %>%
+  tab_source_note(md(paste0(
+    "**Role Divergence**: mean minority-vote % across 7 discriminating facts (30 personas); higher = greater persona-driven differentiation.<br>",
+    "**Rote Response**: % of personas returning strategies in presentation order (SO>ST>WO>WT); threshold ≤ 10%.<br>",
+    "**Self-Report / Behavioral**: proportion of 7 attributes with significant high-low effects (p < .05) on questionnaire vs. strategy ranking; the gap reveals silent failure.<br>",
+    "**Evidence Based**: position change rate when presented with case-specific counter-evidence; threshold > 15%.<br>",
+    "**Majority Based**: change rate when told all others classified differently; threshold < 50%.<br>",
+    "Red = exceeds failure threshold. Weak-argument change rate was 0% for all models except ", weak_note,
+    ". Control facts: all models showed ≤ 2% splitting, confirming internal validity."
+  )))
+
+gt_save_png(tbl_desc, "appendix_study1_descriptive.png", vw = 1050, vh = 650)
+tbl_desc
+```
+
+## Figure A2: Behavioral Diagnostic Results (`appendix_diagnostic_scorecard.png`)
+
+```{r diagnostic-scorecard, fig.width=9, fig.height=6}
+models_qualified <- c("Claude Sonnet", "Claude Opus", "GPT-5.6 terra",
+                       "GPT-5.6 sol", "Gemini 3.1 Pro", "Gemini 3.5 Flash")
+models_disqualified <- c("Claude Haiku", "GPT-5.6 luna", "Qwen3-32B")
+model_order <- c(models_qualified, models_disqualified)
+
+sc <- tribble(
+  ~model, ~test, ~result, ~label,
+  "Claude Sonnet",    "Test 1: Expression",    "Pass", "Pass",
+  "Claude Sonnet",    "Test 2: Nomological",   "Pass", "Pass",
+  "Claude Sonnet",    "Test 3: Belief Update",  "Pass", "Pass",
+  "Claude Opus",      "Test 1: Expression",    "Pass", "Pass",
+  "Claude Opus",      "Test 2: Nomological",   "Pass", "Pass",
+  "Claude Opus",      "Test 3: Belief Update",  "Pass", "Pass",
+  "GPT-5.6 terra",    "Test 1: Expression",    "Pass", "Pass",
+  "GPT-5.6 terra",    "Test 2: Nomological",   "Pass", "Pass",
+  "GPT-5.6 terra",    "Test 3: Belief Update",  "Pass", "Pass",
+  "GPT-5.6 sol",      "Test 1: Expression",    "Pass", "Pass",
+  "GPT-5.6 sol",      "Test 2: Nomological",   "Pass", "Pass",
+  "GPT-5.6 sol",      "Test 3: Belief Update",  "Pass", "Pass",
+  "Gemini 3.1 Pro",   "Test 1: Expression",    "Pass", "Pass",
+  "Gemini 3.1 Pro",   "Test 2: Nomological",   "Pass", "Pass",
+  "Gemini 3.1 Pro",   "Test 3: Belief Update",  "Pass", "Pass",
+  "Gemini 3.5 Flash", "Test 1: Expression",    "Pass", "Pass",
+  "Gemini 3.5 Flash", "Test 2: Nomological",   "Pass", "Pass",
+  "Gemini 3.5 Flash", "Test 3: Belief Update",  "Pass", "Pass",
+  "Claude Haiku",     "Test 1: Expression",    "Pass", "Pass",
+  "Claude Haiku",     "Test 2: Nomological",   "Pass", "Pass",
+  "Claude Haiku",     "Test 3: Belief Update",  "FAIL", "Acquiescent\nMajority Based: 61%",
+  "GPT-5.6 luna",     "Test 1: Expression",    "Pass", "Pass",
+  "GPT-5.6 luna",     "Test 2: Nomological",   "Pass", "Pass",
+  "GPT-5.6 luna",     "Test 3: Belief Update",  "FAIL", "Forbidden\nWeak arg.: 3%",
+  "Qwen3-32B",        "Test 1: Expression",    "FAIL", "Rote Response\n17%",
+  "Qwen3-32B",        "Test 2: Nomological",   "Pass", "Pass",
+  "Qwen3-32B",        "Test 3: Belief Update",  "FAIL", "Rigid\nEvidence Based: 6%"
+) %>%
+  mutate(
+    group = factor(ifelse(model %in% models_qualified,
+                          "Qualified for Simulation (6 models)", "Disqualified (3 models)"),
+                   levels = c("Qualified for Simulation (6 models)", "Disqualified (3 models)")),
+    model = factor(model, levels = rev(model_order)),
+    test = factor(test, levels = c("Test 1: Expression", "Test 2: Nomological",
+                                    "Test 3: Belief Update"))
+  )
+
+p_sc <- ggplot(sc, aes(x = test, y = model, fill = result)) +
+  geom_tile(color = "white", linewidth = 1.8) +
+  geom_text(data = filter(sc, result == "Pass"),
+            aes(label = label), color = "white", size = 4, fontface = "bold") +
+  geom_text(data = filter(sc, result == "FAIL"),
+            aes(label = label), color = "white", size = 2.8, fontface = "bold",
+            lineheight = 0.85) +
+  facet_grid(group ~ ., scales = "free_y", space = "free_y") +
+  scale_fill_manual(values = c("Pass" = "#333333", "FAIL" = "#c62828"), guide = "none") +
+  labs(
+    title = "Behavioral Diagnostic Results: 3 Tests × 9 Models",
+    subtitle = "All 9 models pass self-report validation. Only behavioral testing reveals which models are unsuitable for simulation.",
+    x = NULL, y = NULL,
+    caption = "Note: Current results are based on preliminary sample sizes (N = 30 personas per model for Tests 1-2; N = 12 personas for Test 3).\nThe full paper will increase N to achieve adequate statistical power for robust pass/fail estimation."
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid = element_blank(),
+    plot.title = element_text(face = "bold", size = 14),
+    plot.subtitle = element_text(size = 10, color = "grey40"),
+    axis.text.x = element_text(size = 10, face = "bold"),
+    axis.text.y = element_text(size = 10),
+    strip.text.y = element_text(face = "bold", size = 11, angle = 0, hjust = 0),
+    strip.placement = "outside",
+    panel.spacing = unit(0.8, "lines"),
+    plot.caption = element_text(size = 9, color = "#c62828", face = "bold", hjust = 0, lineheight = 1.3),
+    plot.margin = margin(10, 15, 10, 10)
+  )
+
+ggsave(file.path(img_dir, "appendix_diagnostic_scorecard.png"),
+       p_sc, width = 9, height = 6, dpi = 200, bg = "white")
+p_sc
+```

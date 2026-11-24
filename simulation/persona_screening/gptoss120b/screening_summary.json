@@ -1,0 +1,151 @@
+{
+  "check1a": {
+    "item_table": {
+      "1": {
+        "n_categories": 1,
+        "votes": {
+          "T": 8
+        },
+        "set": "判別"
+      },
+      "5": {
+        "n_categories": 1,
+        "votes": {
+          "S": 8
+        },
+        "set": "判別"
+      },
+      "8": {
+        "n_categories": 2,
+        "votes": {
+          "W": 7,
+          "S": 1
+        },
+        "set": "判別"
+      },
+      "9": {
+        "n_categories": 1,
+        "votes": {
+          "W": 8
+        },
+        "set": "判別"
+      },
+      "10": {
+        "n_categories": 1,
+        "votes": {
+          "W": 8
+        },
+        "set": "判別"
+      },
+      "12": {
+        "n_categories": 1,
+        "votes": {
+          "W": 8
+        },
+        "set": "統制"
+      },
+      "16": {
+        "n_categories": 1,
+        "votes": {
+          "O": 8
+        },
+        "set": "統制"
+      },
+      "18": {
+        "n_categories": 1,
+        "votes": {
+          "T": 8
+        },
+        "set": "統制"
+      },
+      "19": {
+        "n_categories": 1,
+        "votes": {
+          "S": 8
+        },
+        "set": "判別"
+      }
+    },
+    "split_discriminative": "1/6",
+    "split_discriminative_frac": 0.16666666666666666,
+    "control_violations": [],
+    "contrast_facts_diverged": "0/4",
+    "contrast_detail": {
+      "8": {
+        "事業推進系": "W",
+        "本社系": "W"
+      },
+      "9": {
+        "事業推進系": "W",
+        "本社系": "W"
+      },
+      "10": {
+        "事業推進系": "W",
+        "本社系": "W"
+      },
+      "19": {
+        "事業推進系": "S",
+        "本社系": "S"
+      }
+    }
+  },
+  "check1b": {
+    "n_personas": 8,
+    "n_ranking_patterns": 4,
+    "textbook_rate": 0.25,
+    "patterns": {
+      "ST-SO-WO-WT": 4,
+      "SO-ST-WO-WT": 2,
+      "WT-WO-SO-ST": 1,
+      "WO-SO-ST-WT": 1
+    }
+  },
+  "check2": {
+    "strong": {
+      "n": 16,
+      "change_rate": 0.25,
+      "follow_rate": 0.25,
+      "change_rate_ci95": [
+        0.062,
+        0.438
+      ]
+    },
+    "weak": {
+      "n": 16,
+      "change_rate": 0.25,
+      "follow_rate": 0.25,
+      "change_rate_ci95": [
+        0.062,
+        0.438
+      ]
+    },
+    "majority": {
+      "n": 16,
+      "change_rate": 0.25,
+      "follow_rate": 0.25,
+      "change_rate_ci95": [
+        0.062,
+        0.438
+      ]
+    },
+    "probe_types_present": [
+      "strong",
+      "weak",
+      "majority"
+    ],
+    "dose_ordering_ok": false,
+    "rigidity_signal": false,
+    "sycophancy_signal": false,
+    "note": "適度=strongで動き、weak/majorityで踏みとどまる。strong≤0.15は硬直シグナル、majority≥0.5は迎合シグナル（暫定閾値）"
+  },
+  "_meta": {
+    "instrument_version": "screening-v0",
+    "model": "agy:GPT-OSS 120B (Medium)",
+    "resolved_model_id": "GPT-OSS 120B (Medium)",
+    "tag": "gptoss120b",
+    "n_personas": 8,
+    "internal_tag_shown": true,
+    "total_cost_usd": 0.0,
+    "stimuli_file": "simulation/data/persona_screening_stimuli.json"
+  }
+}

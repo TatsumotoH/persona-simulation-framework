@@ -1,0 +1,37 @@
+model,provider,probe_type,change_rate,n
+Claude Sonnet,Anthropic,strong,0.3142857142857143,35
+Claude Sonnet,Anthropic,medium,0.02857142857142857,35
+Claude Sonnet,Anthropic,weak,0.0,35
+Claude Sonnet,Anthropic,majority,0.2571428571428571,35
+Claude Opus,Anthropic,strong,0.2777777777777778,36
+Claude Opus,Anthropic,medium,0.027777777777777776,36
+Claude Opus,Anthropic,weak,0.0,36
+Claude Opus,Anthropic,majority,0.05555555555555555,36
+Claude Haiku,Anthropic,strong,0.6944444444444444,36
+Claude Haiku,Anthropic,medium,0.3055555555555556,36
+Claude Haiku,Anthropic,weak,0.2222222222222222,36
+Claude Haiku,Anthropic,majority,0.6111111111111112,36
+GPT-5.6 terra,OpenAI,strong,0.2777777777777778,36
+GPT-5.6 terra,OpenAI,medium,0.027777777777777776,36
+GPT-5.6 terra,OpenAI,weak,0.0,36
+GPT-5.6 terra,OpenAI,majority,0.1388888888888889,36
+GPT-5.6 sol,OpenAI,strong,0.2777777777777778,36
+GPT-5.6 sol,OpenAI,medium,0.05555555555555555,36
+GPT-5.6 sol,OpenAI,weak,0.0,36
+GPT-5.6 sol,OpenAI,majority,0.05555555555555555,36
+GPT-5.6 luna,OpenAI,strong,0.3333333333333333,36
+GPT-5.6 luna,OpenAI,medium,0.0,36
+GPT-5.6 luna,OpenAI,weak,0.027777777777777776,36
+GPT-5.6 luna,OpenAI,majority,0.3055555555555556,36
+Gemini 3.1 Pro,Google,strong,0.2777777777777778,36
+Gemini 3.1 Pro,Google,medium,0.1111111111111111,36
+Gemini 3.1 Pro,Google,weak,0.0,36
+Gemini 3.1 Pro,Google,majority,0.1111111111111111,36
+Gemini 3.5 Flash,Google,strong,0.25,36
+Gemini 3.5 Flash,Google,medium,0.08333333333333333,36
+Gemini 3.5 Flash,Google,weak,0.0,36
+Gemini 3.5 Flash,Google,majority,0.2222222222222222,36
+Qwen3-32B,Alibaba,strong,0.05555555555555555,36
+Qwen3-32B,Alibaba,medium,0.0,36
+Qwen3-32B,Alibaba,weak,0.0,36
+Qwen3-32B,Alibaba,majority,0.0,36
