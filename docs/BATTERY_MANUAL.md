@@ -22,7 +22,7 @@ The script replaces real discussion partners with scripted stimuli, so every mod
 | Study 2: Honda Vietnam (real) | `persona_generic/data/persona_check_honda_v1.json`, `case_pack_honda_v1.json` | Cross-case replication. Based on Amano & Shintaku (2010), *Akamon Management Review* 9(11), https://doi.org/10.14955/amr.091101 |
 | Trait definitions (Test 2) | `persona_generic/data/attributes_v1.json` | Seven attributes, each set high and low |
 
-Facts come in two kinds: **discriminating** facts (ambiguous, designed so that different occupational roles should classify them differently) and **control** facts (unambiguous, expected to show consensus). The Sakura Foods case has 12 facts (7 discriminating, 5 control); the Honda case has 20 facts (7 discriminating, 7 control, 6 other). The assignment of each fact is in the `check1a` section of each stimulus file. Personas come from six occupational role categories, 5 per category (30 in total).
+Facts come in two kinds: **discriminating** facts (ambiguous, designed so that different occupational roles should classify them differently) and **control** facts (unambiguous, expected to show consensus). The Sakura Foods case has 12 facts (7 discriminating, 5 control); the Honda case has 20 facts (7 discriminating, 7 control, 6 other). The assignment of each fact is in the `check1a` section of each stimulus file. Each case has 30 personas in six occupational role categories (5 per category in the Sakura Foods case).
 
 Always pass `--no-internal-tag`. It removes the internal/external hints from the facts; without it, the hints halve the answer options and the results are not comparable.
 

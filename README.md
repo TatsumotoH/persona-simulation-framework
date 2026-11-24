@@ -8,13 +8,7 @@ The repository contains the scripts, stimuli, and model outputs behind the preli
 
 ## What the framework does
 
-Researchers increasingly assign personas to AI models (large language models) to simulate organizational decision-making. A model can report its assigned traits perfectly ("How risk-averse are you?" → "Very") while those traits barely reach its actual judgments. The proposal calls this **silent failure**. The framework detects it with behavioral tests rather than self-report, in three stages:
-
-| Stage | Purpose | Main code |
-|---|---|---|
-| 1. Diagnostic | Three behavioral tests decide whether a model can host personas | `persona_screening.py`, `run_law_generic.py` |
-| 2. Calibration | Tune trait values to target levels, verified at the behavior level | `persona_calibration/` |
-| 3. Simulation | Run multi-agent group decision-making with verified personas | `run_simulation.py`, `run_agents_*.py` |
+Researchers increasingly assign personas to AI models (large language models) to simulate organizational decision-making. A model can report its assigned traits perfectly ("How risk-averse are you?" → "Very") while those traits barely reach its actual judgments. The proposal calls this **silent failure**. The framework detects it with behavioral tests rather than self-report, in three stages: **Diagnostic → Calibration → Simulation**.
 
 The three diagnostic tests:
 
@@ -22,7 +16,25 @@ The three diagnostic tests:
 - **Test 2 — Persona Nomological Test** (nomological validity): when a trait is set high vs. low, does the difference reach behavior (strategy ranking, fact classification) in the theoretically predicted direction, and not only self-report scales?
 - **Test 3 — Persona Belief-Update Test** (deliberation fitness): does the persona yield to strong evidence while resisting weak arguments and baseless majority pressure?
 
-Scoring rules are in [docs/BATTERY_MANUAL.md](docs/BATTERY_MANUAL.md).
+## Start here
+
+| Part of the framework | Code | Stimuli | Results: Study 1 (Sakura Foods) | Results: Study 2 (Honda Vietnam) |
+|---|---|---|---|---|
+| **Stage 1, Test 1** Expression | `persona_screening.py` | `persona_generic/data/persona_check_*.json` | `simulation/persona_screening/sakura_<model>/` | `simulation/persona_screening/honda_<model>/` |
+| **Stage 1, Test 2** Nomological | `run_law_generic.py` | `persona_generic/data/attributes_v1.json`, `case_pack_*.json`, `persona_check_*.json` | `persona_generic/results/law_sakura_<model>/` | `persona_generic/results/law_honda_<model>/` |
+| **Stage 1, Test 3** Belief-Update | `persona_screening.py` (same run as Test 1) | `persona_generic/data/persona_check_*.json` | `simulation/persona_screening/sakura_<model>/` | `simulation/persona_screening/honda_<model>/` |
+| **Stage 2** Calibration | `persona_calibration/run_calibration_loop.py` | `simulation/data/` | `persona_calibration/results/calib_loop_<model>/` | — |
+| **Stage 3** Simulation | `run_simulation.py` → `run_agents_multiround.py`, `run_agents_single_facilitator.py` | `simulation/data/` | — | not included (see below) |
+| **Figures and tables** | `scripts/` | — | `data/*.csv` (summary tables) | — |
+
+How to run and score the tests: [docs/BATTERY_MANUAL.md](docs/BATTERY_MANUAL.md). A plain-language summary of the results: [FINDINGS.md](FINDINGS.md). Each folder also has a short README.
+
+**Names to know.** File and folder names date from the research process and are kept so that they match the file list in the technical appendix (Section G):
+
+- `law` (as in `run_law_generic.py`, `law_sakura_*`) = **Test 2**, the nomological test.
+- Inside stimulus and result files, `check1a` / `check1b` = **Test 1** (fact classification / strategy ranking) and `check2` = **Test 3**.
+- `persona_generic/` holds the standardized battery used in both studies; `simulation/` holds the Study 2 case materials and the Test 1 & 3 outputs.
+- `sakura_*` = Study 1 (Sakura Foods case); `honda_*` = Study 2 (Honda Vietnam case).
 
 ## Where each reported result comes from
 
@@ -30,37 +42,54 @@ Scoring rules are in [docs/BATTERY_MANUAL.md](docs/BATTERY_MANUAL.md).
 |---|---|
 | Table 1, Figure 3, Appendix Figures A1–A2 (Study 1, Sakura Foods case, 9 models) | Tests 1 & 3: `simulation/persona_screening/sakura_<model>/` · Test 2: `persona_generic/results/law_sakura_<model>/` · Summary tables: `data/*.csv` |
 | Table 1 rows marked † (GPT-OSS 120B, Swallow-70B; preliminary version of the battery) | `simulation/persona_screening/gptoss120b/`, `simulation/persona_screening/swallow70b_full/` |
-| Table 2, Appendix §1C (calibration pipeline) | `persona_calibration/run_calibration_loop.py` → `persona_calibration/results/calib_loop_<model>/` |
+| Table 2, Appendix §1C (calibration pipeline) | `persona_calibration/results/calib_loop_<model>/` |
 | Appendix §2A (Study 2, Honda Vietnam case: diagnostic replication) | `simulation/persona_screening/honda_<model>/`, `persona_generic/results/law_honda_<model>/` |
-| §3 and Appendix §2A (Study 2: 2,560-run group simulation) | `run_simulation.py` → `run_agents_multiround.py` / `run_agents_single_facilitator.py` (raw simulation outputs are not included; see below) |
+| §3 and Appendix §2A (Study 2: 2,560-run group simulation) | `run_simulation.py` → `run_agents_multiround.py` / `run_agents_single_facilitator.py` (raw outputs not included; see below) |
 | Figures 1 and 3 (diagrams) | `scripts/create_figure1_three_stage_framework.py`, `scripts/create_figure3_diagnostic_battery.py` |
 | Figure 2, Tables 1–2, Appendix Figures A1–A2 | `scripts/gen_all_figures.Rmd` (reads `data/` and `persona_generic/results/`) |
-
-A plain-language summary of these results is in [FINDINGS.md](FINDINGS.md).
 
 ## Repository layout
 
 ```
-├── persona_screening.py          # Tests 1 & 3 (204 calls per model)
-├── run_law_generic.py            # Test 2 (self-report vs. behavioral layers)
+├── persona_screening.py          # Stage 1: Tests 1 & 3 (204 calls per model)
+├── run_law_generic.py            # Stage 1: Test 2 (324 calls per model)
+├── run_simulation.py             # Stage 3: runner; calls one of the two scripts below
+├── run_agents_multiround.py      # Stage 3: multi-round group deliberation
+├── run_agents_single_facilitator.py  # Stage 3: single-facilitator deliberation
+├── run_agents.py                 # Stage 3: initial single-file version (superseded by the two above)
+├── simulation_data.py            # Study 2 case summary and persona definitions
 ├── llm_backend.py                # Common interface to the model CLIs (see "Running")
-├── config_manager.py             # Experiment configuration records
-├── simulation_data.py            # Case materials and persona definitions (Study 2)
-├── run_simulation.py             # Group simulation runner (Stage 3)
-├── run_agents.py, run_agents_multiround.py, run_agents_single_facilitator.py
-├── run_honda_case2.sh, run_honda_case2_family.sh   # Study 2 batch commands
-├── persona_generic/
-│   ├── data/                     # Stimuli: case packs, persona attributes, test items
-│   ├── results/                  # Test 2 outputs (law_sakura_*, law_honda_*)
-│   └── run_battery_sakura.sh     # Study 1 batch command (Tests 1–3 for one model)
+├── config_manager.py             # Records the configuration of each simulation run
+├── run_honda_case2.sh            # Study 2: Tests 1–3 for one model
+├── run_honda_case2_family.sh     # Study 2: Tests 1–3 for a provider family
+├── persona_generic/              # Standardized battery (Studies 1 and 2)
+│   ├── data/                     #   stimuli: case packs, persona attributes, test items
+│   ├── results/                  #   Test 2 outputs (law_sakura_*, law_honda_*)
+│   └── run_battery_sakura.sh     #   Study 1: Tests 1–3 for one model
 ├── simulation/
 │   ├── data/                     # Study 2 case summary, 20 facts, 30 personas
-│   └── persona_screening/        # Tests 1 & 3 outputs (sakura_*, honda_*)
-├── persona_calibration/          # Stage 2: calibration loop and pathway tests; calibration results
-├── data/                         # Summary CSVs used for Table 1 and appendix figures
+│   └── persona_screening/        # Test 1 & 3 outputs (sakura_*, honda_*)
+├── persona_calibration/          # Stage 2: calibration loop, pathway tests, results
+├── data/                         # Summary CSVs behind Table 1 and the appendix figures
 ├── scripts/                      # Figure and table generation
-└── docs/BATTERY_MANUAL.md        # How to run and score the diagnostic battery
+├── docs/BATTERY_MANUAL.md        # How to run and score the diagnostic battery
+└── FINDINGS.md                   # Summary of the reported results
 ```
+
+## Correspondence with the technical appendix (Section G)
+
+Section G of the technical appendix lists the repository contents. Each item and where it stands in this public version:
+
+| Section G item | In this repository |
+|---|---|
+| `persona_screening.py`, `llm_backend.py`, `config_manager.py`, `simulation_data.py`, `run_simulation.py`, `run_agents*.py` | Included, as listed |
+| `persona_calibration/` (`run_calibration_loop.py`, `run_dissociation.py`, `run_dissociation_pref.py`) | Included, with the calibration results |
+| `requirements.txt`, `README.md` | Included |
+| `FINDINGS.md` | Included; summarizes the results reported in the proposal |
+| `persona_simulation/`, `analysis/` (analysis notebooks) | To be released with the full paper, together with the raw simulation outputs |
+| `bias_tasks_v1.json`, `run_behavioral_tasks.py` | Not included; these belong to additional tests that are not part of the results reported in the proposal |
+
+Added since the appendix was written: `run_law_generic.py` (Test 2), the batch scripts, the stimuli in `persona_generic/`, the model outputs, `data/`, `scripts/`, and `docs/`.
 
 ## Models
 
@@ -82,7 +111,7 @@ GPT-OSS 120B and Swallow-70B (open-weight) were run on AIST's ABCI supercomputer
 
 ## Running
 
-**Language.** All stimuli, personas, and prompts are in Japanese, and the experiments were run in Japanese. Code comments are also in Japanese; function and variable names are in English. This README, FINDINGS.md, and docs/BATTERY_MANUAL.md are the English entry points.
+**Language.** All stimuli, personas, and prompts are in Japanese, and the experiments were run in Japanese. Code comments are also in Japanese; function and variable names are in English. This README, the folder READMEs, FINDINGS.md, and docs/BATTERY_MANUAL.md are the English entry points.
 
 **Model access.** `llm_backend.py` calls models through command-line tools rather than vendor SDKs:
 
