@@ -44,11 +44,9 @@ The battery was rerun on Honda's motorcycle strategy in Vietnam (528 calls per m
 
 - Files: `simulation/persona_screening/honda_<model>/`, `persona_generic/results/law_honda_<model>/`
 
-## 6. Group composition changes conclusions (Study 2, Stage 3)
+## 6. Group simulation (Study 2, Stage 3)
 
-Calibrated personas were placed in five-member teams, crossing group composition (headquarters-dominant, local-dominant, balanced, random) with deliberation format (four conditions), 20 replications per model: 2,560 simulations in total. Teams with different compositions reached systematically different strategic conclusions in all 8 commercial models (Kruskal-Wallis p < 0.05 for every strategy quadrant).
-
-- Code: `run_simulation.py`, `run_agents_multiround.py`, `run_agents_single_facilitator.py`. Raw outputs and analysis notebooks will be released with the full paper.
+The group simulation code is included: `run_simulation.py` runs teams of personas with different compositions (headquarters-dominant, local-dominant, balanced, random) through fact classification, deliberation, and strategy ranking, using `run_agents_multiround.py` or `run_agents_single_facilitator.py`. The simulation results, raw outputs, and analysis notebooks will be released with the full paper.
 
 ## Checking the numbers yourself
 
